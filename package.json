@@ -1,0 +1,22 @@
+{
+    "name": "file-manager-template",
+    "version": "1.0.0",
+    "description": "Static template of the file manager plugin",
+    "main": "index.js",
+    "repository": "git@github.com:m-adamski/file-manager-template.git",
+    "author": "Maciej Adamski <m.adamski@ideacode.pl>",
+    "license": "MIT",
+    "private": false,
+    "scripts": {
+        "build": "gulp",
+        "compile-sync": "gulp watch-sync"
+    },
+    "devDependencies": {
+        "browser-sync": "^2.26.3",
+        "gulp": "^4.0.0",
+        "gulp-sass": "^4.0.2",
+        "gulp-sass-lint": "^1.4.0",
+        "gulp-sourcemaps": "^2.6.4",
+        "sass-lint": "^1.12.1"
+    }
+}
