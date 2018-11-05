@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css?family=Niramit:300,400,500,600,700&subset=latin-ext");
 
 @mixin default-font($font-size: 1em, $font-weight: 400) {
-    @include niramit-font($font-size, $font-weight);
+    @include krub-font($font-size, $font-weight);
 }
 
 @mixin krub-font($font-size: 1em, $font-weight: 400) {

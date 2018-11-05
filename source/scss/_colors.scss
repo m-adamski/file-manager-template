@@ -32,10 +32,18 @@ $color-global-danger: $color-burnt-sienna;
 $color-global-info: $color-viking;
 $color-global-light: $color-gallery-darken;
 
+// Container
+$color-container-bg: $color-white;
+
 // Top-bar
 $color-top-bar: $color-white;
 $color-top-bar-bg: $color-hippie-blue;
 $color-top-bar-border: $color-hippie-blue;
 
 // Explorer
-$color-explorer-item-bg-hover: $color-alabaster;
+$color-explorer-section: $color-dusty-gray;
+$color-explorer-section-bg: $color-gallery;
+$color-explorer-item-checkbox-border: $color-dusty-gray;
+$color-explorer-item-checkbox-checked: $color-hippie-blue;
+$color-explorer-item-bg-hover: $color-gallery;
+$color-explorer-item-bg-checked: lighten($color-hippie-blue, 35%);

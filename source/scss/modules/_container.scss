@@ -9,4 +9,5 @@
     align-items: stretch;
     align-content: stretch;
     @include default-font(12px);
+    background-color: $color-container-bg;
 }

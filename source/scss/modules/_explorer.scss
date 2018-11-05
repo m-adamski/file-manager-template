@@ -1,55 +1,128 @@
 .explorer {
     position: relative;
-    display: flex;
+    display: block;
     width: 100%;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: flex-start;
-    align-content: flex-start;
     padding: ($var-top-bar-height + 30px) 40px;
 
-    .item {
+    &-section {
         position: relative;
-        display: flex;
-        width: 33%;
-        height: 70px;
-        flex-direction: column;
-        padding: 10px 10px 10px 80px;
+        display: block;
+        width: 100%;
+        height: 25px;
         margin: 10px 0;
-        cursor: pointer;
 
-        &::before {
-            content: "";
+        &-line {
             position: absolute;
             display: block;
             top: 10px;
-            left: 10px;
-            width: 50px;
-            height: 50px;
-            background: url("../images/icon-directory.png") 50% 50% no-repeat transparent;
-            background-size: cover;
+            left: 0;
+            width: 100%;
+            height: 5px;
+            background-color: $color-explorer-section-bg;
         }
 
-        &:hover {
-            background-color: $color-explorer-item-bg-hover;
-        }
-
-        &-name {
-            position: relative;
+        span {
+            position: absolute;
             display: block;
-            font-size: 2em;
+            top: 5px;
+            left: 30px;
+            @include default-font(.8em, 600);
             line-height: 1em;
-            padding-top: 5px;
+            text-transform: uppercase;
             margin: 0;
+            padding: 3px 10px;
+            color: $color-explorer-section;
+            background-color: $color-container-bg;
         }
+    }
 
-        &-details {
+    &-list {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: flex-start;
+        align-content: flex-start;
+
+        .item {
             position: relative;
             display: flex;
-            flex-wrap: nowrap;
-            justify-content: space-between;
-            margin: 0;
+            width: 33.3%;
+            min-height: 60px;
+            flex-direction: column;
+            padding: 5px 20px 5px 80px;
+            margin: 5px 0;
+            cursor: pointer;
+
+            &.directory {
+                &::before {
+                    content: "";
+                    position: absolute;
+                    display: block;
+                    top: 10px;
+                    left: 20px;
+                    width: 40px;
+                    height: 40px;
+                    background: url("../images/icon-directory.png") 50% 50% no-repeat transparent;
+                    background-size: cover;
+                }
+            }
+
+            &.file {
+                padding-left: 110px;
+
+                &::before {
+                    content: "";
+                    position: absolute;
+                    display: block;
+                    top: 10px;
+                    left: 50px;
+                    width: 40px;
+                    height: 40px;
+                    background: url("../images/icon-directory.png") 50% 50% no-repeat transparent;
+                    background-size: cover;
+                }
+            }
+
+            &.checked {
+                background-color: $color-explorer-item-bg-checked;
+
+                .item-checkbox {
+                    background-color: $color-explorer-item-checkbox-checked;
+                }
+            }
+
+            &:hover {
+                background-color: $color-explorer-item-bg-hover;
+            }
+
+            &-name {
+                position: relative;
+                display: block;
+                @include default-font(1.4em, 500);
+                line-height: 1em;
+                padding-top: 10px;
+                margin: 0;
+            }
+
+            &-details {
+                position: relative;
+                display: flex;
+                flex-wrap: nowrap;
+                justify-content: space-between;
+                margin: 0;
+            }
+
+            &-checkbox {
+                position: absolute;
+                display: block;
+                top: calc(50% - 5px);
+                left: 20px;
+                width: 10px;
+                height: 10px;
+                border: 1px solid $color-explorer-item-checkbox-border;
+            }
         }
     }
 }
