@@ -1,0 +1,55 @@
+.explorer {
+    position: relative;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: flex-start;
+    padding: ($var-top-bar-height + 30px) 40px;
+
+    .item {
+        position: relative;
+        display: flex;
+        width: 33%;
+        height: 70px;
+        flex-direction: column;
+        padding: 10px 10px 10px 80px;
+        margin: 10px 0;
+        cursor: pointer;
+
+        &::before {
+            content: "";
+            position: absolute;
+            display: block;
+            top: 10px;
+            left: 10px;
+            width: 50px;
+            height: 50px;
+            background: url("../images/icon-directory.png") 50% 50% no-repeat transparent;
+            background-size: cover;
+        }
+
+        &:hover {
+            background-color: $color-explorer-item-bg-hover;
+        }
+
+        &-name {
+            position: relative;
+            display: block;
+            font-size: 2em;
+            line-height: 1em;
+            padding-top: 5px;
+            margin: 0;
+        }
+
+        &-details {
+            position: relative;
+            display: flex;
+            flex-wrap: nowrap;
+            justify-content: space-between;
+            margin: 0;
+        }
+    }
+}

@@ -1,0 +1,29 @@
+.top-bar {
+    position: absolute;
+    display: flex;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: $var-top-bar-height;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: stretch;
+    color: $color-top-bar;
+    background-color: $color-top-bar-bg;
+    border-bottom: 1px solid $color-top-bar-border;
+    z-index: 10;
+
+    &-intro {
+        position: relative;
+        display: flex;
+        width: 30%;
+        max-width: 500px;
+        flex-direction: row;
+        align-items: flex-end;
+        align-content: flex-end;
+        padding: 0 20px;
+        border-right: 1px solid $color-top-bar-border;
+    }
+}

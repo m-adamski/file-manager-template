@@ -1,0 +1,11 @@
+@import "colors";
+@import "fonts";
+@import "variables";
+
+@import "modules/container";
+
+.fm-container {
+    @import "modules/top-bar";
+    @import "modules/sidebar";
+    @import "modules/explorer";
+}
