@@ -106,7 +106,7 @@
         left: 20px;
         width: 40px;
         height: 40px;
-        background: url("../images/icon-directory.png") 50% 50% no-repeat transparent;
+        background: url("../images/icons/icon-directory.png") 50% 50% no-repeat transparent;
         background-size: cover; }
       .fm-container .explorer-list .item.file {
         padding-left: 110px; }
@@ -118,7 +118,7 @@
           left: 50px;
           width: 40px;
           height: 40px;
-          background: url("../images/icon-directory.png") 50% 50% no-repeat transparent;
+          background: url("../images/icons/icon-file.png") 50% 50% no-repeat transparent;
           background-size: cover; }
       .fm-container .explorer-list .item.checked {
         background-color: #c8dce4; }
