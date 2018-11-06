@@ -1,0 +1,99 @@
+.dropdown {
+    &-toggle {
+        cursor: pointer;
+    }
+
+    &-menu {
+        position: absolute;
+        display: none;
+        top: 30px;
+        left: -5px;
+        width: 200px;
+        background-color: $color-dropdown-bg;
+        border: 1px solid $color-dropdown-border;
+        z-index: 10;
+
+        &::before,
+        &::after {
+            content: "";
+            position: absolute;
+            display: block;
+            top: -16px;
+            left: 7px;
+            width: 0;
+            height: 0;
+            border: 8px solid transparent;
+            border-bottom: 8px solid $color-dropdown-border;
+            z-index: 20;
+        }
+
+        &::after {
+            top: -15px;
+            border-bottom: 8px solid $color-dropdown-bg;
+        }
+    }
+
+    &-item {
+        position: relative;
+        display: block;
+        padding: 8px 15px;
+        cursor: pointer;
+
+        &.danger {
+            color: $color-dropdown-item-danger;
+            background-color: $color-dropdown-item-danger-bg;
+
+            &:hover {
+                background-color: $color-dropdown-item-danger-hover-bg;
+            }
+        }
+
+        &.icon {
+            padding-left: 40px;
+
+            i {
+                position: absolute;
+                display: block;
+                top: calc(50% - 6px);
+                left: 15px;
+                width: 14px;
+                height: 14px;
+                text-align: center;
+            }
+        }
+
+        &.header {
+            padding: 10px 15px;
+            text-transform: uppercase;
+            color: $color-dropdown-item-header;
+            cursor: default;
+
+            &:hover {
+                background-color: transparent;
+            }
+        }
+
+        &:hover {
+            background-color: $color-dropdown-item-hover-bg;
+        }
+    }
+
+    &.right {
+        .dropdown-menu {
+            left: auto;
+            right: -5px;
+
+            &::before,
+            &::after {
+                left: auto;
+                right: 7px;
+            }
+        }
+    }
+
+    &.open {
+        .dropdown-menu {
+            display: block;
+        }
+    }
+}

@@ -5,20 +5,20 @@ var sassLintPlugin = require("gulp-sass-lint");
 var sourceMapPlugin = require("gulp-sourcemaps");
 var browserSync = require("browser-sync").create();
 
-gulp.task("default", gulp.series(lintSass, compileSass, copyImages));
-gulp.task("watch-sync", gulp.series(lintSass, compileSass, copyImages, function() {
+gulp.task("default", gulp.series(lintSass, compileSass, copy));
+gulp.task("watch-sync", gulp.series(lintSass, compileSass, copy, function() {
     browserSync.init({
         server: "./dist"
     });
 
     gulp.watch(
         "./source/scss/**/*.scss",
-        gulp.series(lintSass, compileSass, copyImages)
+        gulp.series(lintSass, compileSass, copy)
     );
 
     gulp.watch(
         "./source/images",
-        copyImages
+        copy
     );
 }));
 
@@ -42,9 +42,15 @@ function compileSass(afterDone) {
     afterDone();
 }
 
-function copyImages(afterDone) {
-    gulp.src("./source/images/**/*")
-        .pipe(gulp.dest("./dist/images"));
+function copy(afterDone) {
+    var copyData = {
+        "./source/images/**/*": "./dist/images",
+        "./node_modules/@fortawesome/fontawesome-free/webfonts/**/*": "./dist/webfonts"
+    };
+
+    Object.keys(copyData).forEach(function(source) {
+        gulp.src(source).pipe(gulp.dest(copyData[source]));
+    });
 
     afterDone();
 }

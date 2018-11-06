@@ -44,6 +44,14 @@ $color-top-bar-border: $color-hippie-blue;
 $color-explorer-section: $color-dusty-gray;
 $color-explorer-section-bg: $color-gallery;
 $color-explorer-item-checkbox-border: $color-dusty-gray;
-$color-explorer-item-checkbox-checked: $color-hippie-blue;
-$color-explorer-item-bg-hover: $color-gallery;
-$color-explorer-item-bg-checked: lighten($color-hippie-blue, 35%);
+$color-explorer-item-details: $color-dusty-gray;
+$color-explorer-item-options-icon: $color-dusty-gray;
+
+// Dropdown
+$color-dropdown-bg: $color-white;
+$color-dropdown-border: $color-silver;
+$color-dropdown-item-header: $color-dusty-gray;
+$color-dropdown-item-hover-bg: $color-gallery;
+$color-dropdown-item-danger: $color-white;
+$color-dropdown-item-danger-bg: $color-global-danger;
+$color-dropdown-item-danger-hover-bg: darken($color-global-danger, 10%);

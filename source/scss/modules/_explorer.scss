@@ -2,7 +2,6 @@
     position: relative;
     display: block;
     width: 100%;
-    padding: ($var-top-bar-height + 30px) 40px;
 
     &-section {
         position: relative;
@@ -11,22 +10,23 @@
         height: 25px;
         margin: 10px 0;
 
-        &-line {
+        .line {
             position: absolute;
             display: block;
+            width: 100%;
             top: 10px;
             left: 0;
-            width: 100%;
             height: 5px;
             background-color: $color-explorer-section-bg;
         }
 
-        span {
+        .name {
             position: absolute;
             display: block;
-            top: 5px;
+            top: 7px;
             left: 30px;
-            @include default-font(.8em, 600);
+            font-size: .8em;
+            font-weight: 600;
             line-height: 1em;
             text-transform: uppercase;
             margin: 0;
@@ -44,84 +44,93 @@
         justify-content: flex-start;
         align-items: flex-start;
         align-content: flex-start;
+        margin-bottom: 40px;
 
         .item {
             position: relative;
             display: flex;
+            flex-flow: row nowrap;
+            justify-content: space-between;
+            align-items: center;
             width: 33.3%;
-            min-height: 60px;
-            flex-direction: column;
-            padding: 5px 20px 5px 80px;
-            margin: 5px 0;
-            cursor: pointer;
+
+            &-checkbox {
+                position: relative;
+                display: block;
+                width: 13px;
+                height: 13px;
+                margin: 0 10px;
+                border: 1px solid $color-explorer-item-checkbox-border;
+                cursor: pointer;
+            }
+
+            &-icon {
+                position: relative;
+                display: block;
+                width: 40px;
+                height: 40px;
+                margin: 0 20px 0 10px;
+            }
+
+            &-data {
+                position: relative;
+                display: flex;
+                flex-flow: column nowrap;
+                flex-grow: 1;
+
+                .name {
+                    position: relative;
+                    display: block;
+                    font-size: 1.4em;
+                    font-weight: 500;
+                    line-height: 1.3em;
+                }
+
+                .details {
+                    position: relative;
+                    display: flex;
+                    flex-flow: row nowrap;
+                    justify-content: space-between;
+                    color: $color-explorer-item-details;
+                }
+            }
+
+            &-options {
+                position: relative;
+                display: flex;
+                flex-flow: row nowrap;
+                justify-content: center;
+                align-items: center;
+                width: 20px;
+                height: 20px;
+                margin: 0 0 0 10px;
+            }
 
             &.directory {
-                &::before {
-                    content: "";
-                    position: absolute;
-                    display: block;
-                    top: 10px;
-                    left: 20px;
-                    width: 40px;
-                    height: 40px;
+                .item-icon {
                     background: url("../images/icons/icon-directory.png") 50% 50% no-repeat transparent;
-                    background-size: cover;
+                    background-size: contain;
                 }
             }
 
             &.file {
-                padding-left: 110px;
-
-                &::before {
-                    content: "";
-                    position: absolute;
-                    display: block;
-                    top: 10px;
-                    left: 50px;
-                    width: 40px;
-                    height: 40px;
-                    background: url("../images/icons/icon-file.png") 50% 50% no-repeat transparent;
-                    background-size: cover;
+                .item-icon {
+                    background: url("../images/icons/icon-file-text.png") 50% 50% no-repeat transparent;
+                    background-size: contain;
                 }
             }
 
-            &.checked {
-                background-color: $color-explorer-item-bg-checked;
-
+            &.selected {
                 .item-checkbox {
-                    background-color: $color-explorer-item-checkbox-checked;
+                    &::after {
+                        content: "\f00c";
+                        position: absolute;
+                        display: block;
+                        top: 1px;
+                        left: 1px;
+                        @include awesome-solid-font(.7em);
+                    }
                 }
-            }
-
-            &:hover {
-                background-color: $color-explorer-item-bg-hover;
-            }
-
-            &-name {
-                position: relative;
-                display: block;
-                @include default-font(1.4em, 500);
-                line-height: 1em;
-                padding-top: 10px;
-                margin: 0;
-            }
-
-            &-details {
-                position: relative;
-                display: flex;
-                flex-wrap: nowrap;
-                justify-content: space-between;
-                margin: 0;
-            }
-
-            &-checkbox {
-                position: absolute;
-                display: block;
-                top: calc(50% - 5px);
-                left: 20px;
-                width: 10px;
-                height: 10px;
-                border: 1px solid $color-explorer-item-checkbox-border;
             }
         }
     }
