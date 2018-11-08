@@ -12,14 +12,98 @@
     <section class="container">
 
         <section class="fm-container">
-            <!-- <section class="top-bar">
-                <section class="top-bar-intro">
-                    <p>FileManager</p>
-                </section>
-                <section class="top-bar-nav"></section>
-            </section> -->
+            <section class="nav">
+                <section class="nav-side">
 
-            <section class="sidebar"></section>
+                    <section class="dropdown open">
+                        <button class="btn btn-primary btn-round dropdown-toggle" type="button">
+                            Create new
+                        </button>
+                        <section class="dropdown-menu menu-btn menu-btn-offset">
+                            <section class="dropdown-item header">
+                                Create or upload
+                            </section>
+                            <section class="dropdown-item icon">
+                                <i class="fas fa-cloud-upload-alt"></i>
+                                Upload file
+                            </section>
+                            <section class="dropdown-item icon">
+                                <i class="fas fa-folder-plus"></i>
+                                Create directory
+                            </section>
+                        </section>
+                    </section>
+
+                </section>
+                <section class="nav-menu">
+
+                    <section class="flex flex-row flex-nowrap">
+
+                        <section class="btn btn-icon">
+                            <i class="fas fa-sync-alt"></i>
+                        </section>
+                        <section class="btn btn-icon">
+                            <i class="fas fa-bars"></i>
+                        </section>
+                        <section class="btn btn-icon">
+                            <i class="fas fa-th"></i>
+                        </section>
+                    </section>
+                    <section class="flex flex-row flex-nowrap flex-justify-end">
+                        <section class="btn btn-default btn-icon btn-round btn-disabled">
+                            <i class="fas fa-pencil-alt"></i>
+                            Rename
+                        </section>
+                        <section class="btn btn-default btn-icon btn-round">
+                            <i class="far fa-copy"></i>
+                            Copy
+                        </section>
+                        <section class="btn btn-default btn-icon btn-round">
+                            <i class="fas fa-arrows-alt"></i>
+                            Move
+                        </section>
+                        <section class="btn btn-default btn-icon btn-round">
+                            <i class="fas fa-download"></i>
+                            Download
+                        </section>
+                        <section class="btn btn-danger btn-icon btn-round">
+                            <i class="far fa-trash-alt"></i>
+                            Remove
+                        </section>
+                    </section>
+
+
+                </section>
+            </section>
+            <section class="sidebar">
+
+                <section class="item back">
+                    <section class="item-icon"></section>
+                    <section class="item-name">...</section>
+                </section>
+
+                <section class="item directory">
+                    <section class="item-icon"></section>
+                    <section class="item-data">
+                        <section class="name">Alarms</section>
+                        <section class="details">
+                            <section class="summary">1026 items | 144.60 MB</section>
+                            <section class="date">Dec 30, 2017 13:23:10</section>
+                        </section>
+                    </section>
+                </section>
+                <section class="item directory">
+                    <section class="item-icon"></section>
+                    <section class="item-data">
+                        <section class="name">DCIM</section>
+                        <section class="details">
+                            <section class="summary">501 items | 10.03 MB</section>
+                            <section class="date">Dec 30, 2017 13:32:01</section>
+                        </section>
+                    </section>
+                </section>
+
+            </section>
             <section class="explorer">
 
                 <section class="explorer-section">
@@ -50,16 +134,16 @@
                         <section class="item-data">
                             <section class="name">DCIM</section>
                             <section class="details">
-                                <section class="summary">1026 items | 144.60 MB</section>
-                                <section class="date">Dec 30, 2017 13:23:10</section>
+                                <section class="summary">501 items | 10.03 MB</section>
+                                <section class="date">Dec 30, 2017 13:32:01</section>
                             </section>
                         </section>
                         <section class="item-options">
 
                             <section class="dropdown right open">
-                                <section class="dropdown-toggle">
+                                <button class="dropdown-toggle" type="button">
                                     <i class="fas fa-ellipsis-v"></i>
-                                </section>
+                                </button>
                                 <section class="dropdown-menu">
                                     <section class="dropdown-item header">
                                         Section title
@@ -74,7 +158,7 @@
                                     </section>
                                     <section class="dropdown-item danger icon">
                                         <i class="far fa-trash-alt"></i>
-                                        This is a very long description that doesn't fit into the container
+                                        Remove
                                     </section>
                                 </section>
                             </section>
@@ -91,20 +175,31 @@
 
                 <section class="explorer-list">
 
-                    <section class="item file">
+                    <section class="item file ext-jpg">
                         <section class="item-checkbox"></section>
                         <section class="item-icon"></section>
                         <section class="item-data">
-                            <section class="name">Alarms</section>
+                            <section class="name">Landscape.jpg</section>
                             <section class="details">
-                                <section class="summary">1026 items | 144.60 MB</section>
-                                <section class="date">Dec 30, 2017 13:23:10</section>
+                                <section class="summary">JPG | 2.32 MB</section>
+                                <section class="date">Dec 30, 2017 18:12:32</section>
                             </section>
                         </section>
                         <section class="item-options">
                             <i class="fas fa-ellipsis-v"></i>
                         </section>
                     </section>
+                </section>
+            </section>
+
+            <section class="modal-canvas"></section>
+            <section class="modal">
+                <header class="header">
+                    <section class="line"></section>
+                    <span class="content">Create new directory</span>
+                </header>
+                <section class="content">
+                    <p>Sed eget arcu sapien. In consequat lectus eget libero vestibulum viverra. Duis aliquam est id mauris sodales viverra.</p>
                 </section>
             </section>
 

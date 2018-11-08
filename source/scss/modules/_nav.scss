@@ -1,0 +1,35 @@
+.nav {
+    position: absolute;
+    display: flex;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: $nav-height;
+    flex-flow: row nowrap;
+    color: $color-nav;
+    background-color: $color-nav-bg;
+    border-bottom: 1px solid $color-nav-border;
+    z-index: 10;
+
+    &-side {
+        position: relative;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        align-items: center;
+        align-content: center;
+        width: $nav-side-width;
+        padding: 10px 20px;
+    }
+
+    &-menu {
+        position: relative;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        align-items: center;
+        align-content: center;
+        flex-grow: 1;
+        padding: 10px 20px;
+    }
+}

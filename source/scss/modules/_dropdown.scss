@@ -1,5 +1,11 @@
 .dropdown {
+    position: relative;
+    display: inline-block;
+
     &-toggle {
+        border: 0;
+        background-color: transparent;
+        @include default-font();
         cursor: pointer;
     }
 
@@ -12,6 +18,17 @@
         background-color: $color-dropdown-bg;
         border: 1px solid $color-dropdown-border;
         z-index: 10;
+
+        &.menu-btn {
+            top: 45px;
+        }
+
+        &.menu-btn-offset {
+            &::before,
+            &::after {
+                left: 30px;
+            }
+        }
 
         &::before,
         &::after {
@@ -81,7 +98,14 @@
     &.right {
         .dropdown-menu {
             left: auto;
-            right: -5px;
+            right: -8px;
+
+            &.menu-btn-offset {
+                &::before,
+                &::after {
+                    right: 30px;
+                }
+            }
 
             &::before,
             &::after {

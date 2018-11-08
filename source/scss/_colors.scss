@@ -35,17 +35,27 @@ $color-global-light: $color-gallery-darken;
 // Container
 $color-container-bg: $color-white;
 
-// Top-bar
-$color-top-bar: $color-white;
-$color-top-bar-bg: $color-hippie-blue;
-$color-top-bar-border: $color-hippie-blue;
+// Nav
+$color-nav: $color-charade;
+$color-nav-bg: $color-alabaster;
+$color-nav-border: $color-gallery;
+
+// Sidebar
+$color-sidebar-border: $color-gallery;
+$color-sidebar-back-icon: $color-charade;
+$color-sidebar-back-name: $color-charade;
+$color-sidebar-item-hover-bg: $color-alabaster;
 
 // Explorer
 $color-explorer-section: $color-dusty-gray;
 $color-explorer-section-bg: $color-gallery;
-$color-explorer-item-checkbox-border: $color-dusty-gray;
+$color-explorer-item-name: $color-charade;
 $color-explorer-item-details: $color-dusty-gray;
-$color-explorer-item-options-icon: $color-dusty-gray;
+$color-explorer-item-checkbox-icon: $color-dusty-gray;
+$color-explorer-item-checkbox-border: $color-dusty-gray;
+$color-explorer-item-options-icon: $color-charade;
+$color-explorer-item-hover-bg: $color-alabaster;
+$color-explorer-item-selected-bg: $color-gallery;
 
 // Dropdown
 $color-dropdown-bg: $color-white;
@@ -55,3 +65,33 @@ $color-dropdown-item-hover-bg: $color-gallery;
 $color-dropdown-item-danger: $color-white;
 $color-dropdown-item-danger-bg: $color-global-danger;
 $color-dropdown-item-danger-hover-bg: darken($color-global-danger, 10%);
+
+// Button
+$color-btn-icon: $color-charade;
+$color-btn-primary: $color-white;
+$color-btn-primary-bg: $color-global-primary;
+$color-btn-primary-hover-bg: darken($color-global-primary, 10%);
+
+$color-btn-default: $color-charade;
+$color-btn-default-bg: $color-gallery-darken;
+$color-btn-default-hover-bg: darken($color-gallery-darken, 10%);
+
+$color-btn-info: $color-white;
+$color-btn-info-bg: $color-global-info;
+$color-btn-info-hover-bg: darken($color-global-info, 10%);
+
+$color-btn-warning: $color-white;
+$color-btn-warning-bg: $color-global-warning;
+$color-btn-warning-hover-bg: darken($color-global-warning, 10%);
+
+$color-btn-danger: $color-white;
+$color-btn-danger-bg: $color-global-danger;
+$color-btn-danger-hover-bg: darken($color-global-danger, 10%);
+
+// Modal
+$color-modal-bg: $color-white;
+$color-modal-shadow-bg: $color-black;
+$color-modal-canvas-bg: $color-charade;
+$color-modal-header-line-bg: $color-gallery;
+$color-modal-header-content: $color-dusty-gray;
+$color-modal-header-content-bg: $color-white;

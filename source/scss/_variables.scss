@@ -1,1 +1,19 @@
-$var-top-bar-height: 60px;
+$grid-breakpoints: (
+    xs: 0,
+    sm: 576px,
+    md: 768px,
+    lg: 992px,
+    xl: 1200px
+);
+
+$explorer-icons-path: "../images/file-types/";
+$explorer-icons: (
+    _: "icon-file.png",
+    jpg: "icon-file-jpg.png"
+);
+
+$nav-height: 60px;
+$nav-side-width: 500px;
+
+$sidebar-width: 500px;
+$sidebar-options-height: 40px;

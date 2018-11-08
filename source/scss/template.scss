@@ -1,12 +1,16 @@
 @import "colors";
 @import "fonts";
 @import "variables";
+@import "mixins";
 
 @import "modules/container";
 
 .fm-container {
-    @import "modules/top-bar";
+    @import "flex";
+    @import "modules/nav";
     @import "modules/sidebar";
     @import "modules/explorer";
     @import "modules/dropdown";
+    @import "modules/button";
+    @import "modules/modal";
 }

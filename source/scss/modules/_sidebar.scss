@@ -1,6 +1,101 @@
 .sidebar {
     position: relative;
     display: block;
-    width: 30%;
-    max-width: 500px;
+    width: $sidebar-width;
+    border-right: 1px solid $color-sidebar-border;
+    padding: ($nav-height + 10px) 20px 0;
+    overflow: hidden auto;
+
+    @include media-breakpoint-down(md) {
+        display: none;
+    }
+
+    .item {
+        position: relative;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        margin: 10px 0;
+        border-radius: 5px;
+        padding: 5px 0;
+        cursor: pointer;
+
+        &-icon {
+            position: relative;
+            display: block;
+            width: 48px;
+            min-width: 20px;
+            height: 48px;
+            margin: 0 20px 0 10px;
+
+            @include media-breakpoint-down(sm) {
+                display: none;
+            }
+        }
+
+        &-data {
+            position: relative;
+            display: flex;
+            flex-flow: column nowrap;
+            flex-grow: 1;
+            padding-right: 10px;
+
+            .name {
+                position: relative;
+                display: block;
+                font-size: 1em;
+                font-weight: 400;
+                line-height: 1.6em;
+                color: $color-explorer-item-name;
+            }
+
+            .details {
+                position: relative;
+                display: flex;
+                flex-flow: row nowrap;
+                justify-content: space-between;
+                color: $color-explorer-item-details;
+            }
+        }
+
+        &.directory {
+            .item-icon {
+                background: url("../images/icons/file-type/icon-directory.png") 50% 50% no-repeat transparent;
+                background-size: contain;
+            }
+        }
+
+        &.back {
+            justify-content: flex-start;
+
+            .item-icon {
+                height: 30px;
+
+                &::after {
+                    content: "\f3bf";
+                    position: absolute;
+                    display: block;
+                    width: 14px;
+                    height: 14px;
+                    top: calc(50% - 7px);
+                    left: calc(50% - 7px);
+                    @include awesome-solid-font();
+                    color: $color-sidebar-back-icon;
+                    text-align: center;
+                }
+            }
+
+            .item-name {
+                position: relative;
+                display: block;
+                color: $color-sidebar-back-name;
+            }
+        }
+
+        &:hover {
+            background-color: $color-sidebar-item-hover-bg;
+        }
+    }
 }
