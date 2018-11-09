@@ -40,6 +40,11 @@ $color-nav: $color-charade;
 $color-nav-bg: $color-alabaster;
 $color-nav-border: $color-gallery;
 
+// Breadcrumbs
+$color-breadcrumbs-item: $color-dusty-gray;
+$color-breadcrumbs-item-current: $color-charade;
+$color-breadcrumbs-item-arrow-icon: $color-silver;
+
 // Sidebar
 $color-sidebar-border: $color-gallery;
 $color-sidebar-back-icon: $color-charade;
@@ -88,10 +93,22 @@ $color-btn-danger: $color-white;
 $color-btn-danger-bg: $color-global-danger;
 $color-btn-danger-hover-bg: darken($color-global-danger, 10%);
 
+$color-btn-success: $color-white;
+$color-btn-success-bg: $color-global-success;
+$color-btn-success-hover-bg: darken($color-global-success, 10%);
+
 // Modal
 $color-modal-bg: $color-white;
-$color-modal-shadow-bg: $color-black;
-$color-modal-canvas-bg: $color-charade;
+$color-modal-shadow-bg: rgba($color-black, .3);
+$color-modal-canvas-bg: rgba($color-charade, .4);
+$color-modal-close-icon: $color-charade;
 $color-modal-header-line-bg: $color-gallery;
 $color-modal-header-content: $color-dusty-gray;
 $color-modal-header-content-bg: $color-white;
+$color-modal-footer-border: $color-gallery;
+
+// Form
+$color-form-input: $color-charade;
+$color-form-input-bg: $color-white;
+$color-form-input-border: $color-silver;
+$color-form-input-focus-border: $color-dusty-gray;

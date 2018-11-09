@@ -3,6 +3,8 @@
     display: inline-block;
     padding: 10px 20px;
     margin: 0 2px;
+    border: 0;
+    @include default-font();
     cursor: pointer;
 
     &-round {
@@ -59,6 +61,15 @@
         }
     }
 
+    &-success {
+        color: $color-btn-success;
+        background-color: $color-btn-success-bg;
+
+        &:hover {
+            background-color: $color-btn-success-hover-bg;
+        }
+    }
+
     &-icon {
         color: $color-btn-icon;
 
@@ -82,13 +93,26 @@
             color: $color-btn-danger;
         }
 
+        &-success {
+            color: $color-btn-success;
+        }
+
         &.btn-primary,
         &.btn-default,
         &.btn-info,
         &.btn-warning,
-        &.btn-danger {
+        &.btn-danger,
+        &.btn-success {
             i {
                 margin-right: 5px;
+            }
+
+            @include media-breakpoint-down(lg) {
+                text-align: center;
+
+                i {
+                    display: none;
+                }
             }
         }
     }

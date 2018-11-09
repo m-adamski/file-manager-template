@@ -1,0 +1,39 @@
+.breadcrumbs {
+    .list {
+        position: relative;
+        display: block;
+        width: 100%;
+        list-style: none;
+
+        .item {
+            position: relative;
+            display: inline-block;
+            @include default-font();
+            color: $color-breadcrumbs-item;
+            cursor: pointer;
+
+            &::after {
+                content: "\f105";
+                position: relative;
+                display: inline-block;
+                width: 30px;
+                height: 14px;
+                @include awesome-solid-font();
+                color: $color-breadcrumbs-item-arrow-icon;
+                text-align: center;
+                cursor: default;
+            }
+
+            &:last-child {
+                &::after {
+                    display: none;
+                }
+            }
+
+            &.current {
+                color: $color-breadcrumbs-item-current;
+                pointer-events: none;
+            }
+        }
+    }
+}

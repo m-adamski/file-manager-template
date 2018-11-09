@@ -1,0 +1,31 @@
+.padding-l {
+    @include generate(5px, 100px, 1px, padding-left);
+}
+
+.padding-r {
+    @include generate(5px, 100px, 1px, padding-right);
+}
+
+.padding-t {
+    @include generate(5px, 100px, 1px, padding-top);
+}
+
+.padding-b {
+    @include generate(5px, 100px, 1px, padding-bottom);
+}
+
+.margin-l {
+    @include generate(5px, 100px, 1px, margin-left);
+}
+
+.margin-r {
+    @include generate(5px, 100px, 1px, margin-right);
+}
+
+.margin-t {
+    @include generate(5px, 100px, 1px, margin-top);
+}
+
+.margin-b {
+    @include generate(5px, 100px, 1px, margin-bottom);
+}

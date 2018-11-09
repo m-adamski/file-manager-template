@@ -1,0 +1,18 @@
+@function strip-unit($number) {
+    @if type-of($number) == "number" and not unitless($number) {
+        @return $number / ($number * 0 + 1);
+    }
+
+    @return $number;
+}
+
+@mixin generate($first: 5px, $last: 40px, $step: 5px, $type: margin) {
+    $current: $first;
+    @while $current <= $last {
+        &-#{strip-unit($current)} {
+            #{$type}: $current;
+        }
+
+        $current: $current + $step;
+    }
+}

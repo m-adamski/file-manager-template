@@ -1,0 +1,17 @@
+.form {
+    &-input {
+        position: relative;
+        display: block;
+        width: 100%;
+        @include default-font();
+        padding: 10px;
+        color: $color-form-input;
+        background-color: $color-form-input-bg;
+        border: 1px solid $color-form-input-border;
+
+        &:focus {
+            outline: 0;
+            border-color: $color-form-input-focus-border;
+        }
+    }
+}

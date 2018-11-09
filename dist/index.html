@@ -1,120 +1,66 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link type="text/css" rel="stylesheet" href="css/template.css">
-    <link type="text/css" rel="stylesheet" href="css/demo.css">
-    <title>FileManager Template</title>
-</head>
-<body>
-
-    <section class="container">
-
-        <section class="fm-container">
-            <section class="nav">
-                <section class="nav-side">
-
-                    <section class="dropdown open">
-                        <button class="btn btn-primary btn-round dropdown-toggle" type="button">
-                            Create new
-                        </button>
-                        <section class="dropdown-menu menu-btn menu-btn-offset">
-                            <section class="dropdown-item header">
-                                Create or upload
-                            </section>
-                            <section class="dropdown-item icon">
-                                <i class="fas fa-cloud-upload-alt"></i>
-                                Upload file
-                            </section>
-                            <section class="dropdown-item icon">
-                                <i class="fas fa-folder-plus"></i>
-                                Create directory
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <link type="text/css" rel="stylesheet" href="css/template.css" />
+        <link type="text/css" rel="stylesheet" href="css/demo.css" />
+        <title>FileManager Template</title>
+    </head>
+    <body>
+        <section class="container">
+            <section class="fm-container">
+                <section class="nav">
+                    <section class="nav-side">
+                        <section class="dropdown open">
+                            <button class="btn btn-primary btn-round dropdown-toggle" type="button">Create new</button>
+                            <section class="dropdown-menu menu-btn menu-btn-offset">
+                                <section class="dropdown-item header">Create or upload</section>
+                                <section class="dropdown-item icon">
+                                    <i class="fas fa-cloud-upload-alt"></i> Upload file
+                                </section>
+                                <section class="dropdown-item icon">
+                                    <i class="fas fa-folder-plus"></i> Create directory
+                                </section>
                             </section>
                         </section>
                     </section>
-
-                </section>
-                <section class="nav-menu">
-
-                    <section class="flex flex-row flex-nowrap">
-
-                        <section class="btn btn-icon">
-                            <i class="fas fa-sync-alt"></i>
+                    <section class="nav-menu">
+                        <section class="menu">
+                            <section class="flex flex-row flex-nowrap">
+                                <section class="btn btn-icon"><i class="fas fa-sync-alt"></i></section>
+                                <section class="btn btn-icon"><i class="fas fa-bars"></i></section>
+                                <section class="btn btn-icon"><i class="fas fa-th"></i></section>
+                            </section>
+                            <section class="flex flex-row flex-nowrap flex-justify-end">
+                                <section class="btn btn-default btn-icon btn-round">
+                                    <i class="far fa-copy"></i> Copy selected
+                                </section>
+                                <section class="btn btn-default btn-icon btn-round">
+                                    <i class="fas fa-arrows-alt"></i> Move selected
+                                </section>
+                                <section class="btn btn-danger btn-icon btn-round">
+                                    <i class="far fa-trash-alt"></i> Remove selected
+                                </section>
+                            </section>
                         </section>
-                        <section class="btn btn-icon">
-                            <i class="fas fa-bars"></i>
-                        </section>
-                        <section class="btn btn-icon">
-                            <i class="fas fa-th"></i>
-                        </section>
-                    </section>
-                    <section class="flex flex-row flex-nowrap flex-justify-end">
-                        <section class="btn btn-default btn-icon btn-round btn-disabled">
-                            <i class="fas fa-pencil-alt"></i>
-                            Rename
-                        </section>
-                        <section class="btn btn-default btn-icon btn-round">
-                            <i class="far fa-copy"></i>
-                            Copy
-                        </section>
-                        <section class="btn btn-default btn-icon btn-round">
-                            <i class="fas fa-arrows-alt"></i>
-                            Move
-                        </section>
-                        <section class="btn btn-default btn-icon btn-round">
-                            <i class="fas fa-download"></i>
-                            Download
-                        </section>
-                        <section class="btn btn-danger btn-icon btn-round">
-                            <i class="far fa-trash-alt"></i>
-                            Remove
-                        </section>
-                    </section>
-
-
-                </section>
-            </section>
-            <section class="sidebar">
-
-                <section class="item back">
-                    <section class="item-icon"></section>
-                    <section class="item-name">...</section>
-                </section>
-
-                <section class="item directory">
-                    <section class="item-icon"></section>
-                    <section class="item-data">
-                        <section class="name">Alarms</section>
-                        <section class="details">
-                            <section class="summary">1026 items | 144.60 MB</section>
-                            <section class="date">Dec 30, 2017 13:23:10</section>
-                        </section>
-                    </section>
-                </section>
-                <section class="item directory">
-                    <section class="item-icon"></section>
-                    <section class="item-data">
-                        <section class="name">DCIM</section>
-                        <section class="details">
-                            <section class="summary">501 items | 10.03 MB</section>
-                            <section class="date">Dec 30, 2017 13:32:01</section>
+                        <section class="breadcrumbs">
+                            <ul class="list">
+                                <li class="item">Home</li>
+                                <li class="item">Documents</li>
+                                <li class="item current">Important</li>
+                            </ul>
                         </section>
                     </section>
                 </section>
 
-            </section>
-            <section class="explorer">
+                <section class="sidebar">
+                    <section class="item back">
+                        <section class="item-icon"></section>
+                        <section class="item-name">...</section>
+                    </section>
 
-                <section class="explorer-section">
-                    <section class="line"></section>
-                    <span class="name">Directories</span>
-                </section>
-
-                <section class="explorer-list">
-
-                    <section class="item directory selected">
-                        <section class="item-checkbox"></section>
+                    <section class="item directory">
                         <section class="item-icon"></section>
                         <section class="item-data">
                             <section class="name">Alarms</section>
@@ -123,13 +69,8 @@
                                 <section class="date">Dec 30, 2017 13:23:10</section>
                             </section>
                         </section>
-                        <section class="item-options">
-                            <i class="fas fa-ellipsis-v"></i>
-                        </section>
                     </section>
-
                     <section class="item directory">
-                        <section class="item-checkbox"></section>
                         <section class="item-icon"></section>
                         <section class="item-data">
                             <section class="name">DCIM</section>
@@ -138,73 +79,117 @@
                                 <section class="date">Dec 30, 2017 13:32:01</section>
                             </section>
                         </section>
-                        <section class="item-options">
+                    </section>
+                </section>
 
-                            <section class="dropdown right open">
-                                <button class="dropdown-toggle" type="button">
-                                    <i class="fas fa-ellipsis-v"></i>
-                                </button>
-                                <section class="dropdown-menu">
-                                    <section class="dropdown-item header">
-                                        Section title
-                                    </section>
-                                    <section class="dropdown-item icon">
-                                        <i class="fas fa-download"></i>
-                                        Download
-                                    </section>
-                                    <section class="dropdown-item icon">
-                                        <i class="fas fa-info-circle"></i>
-                                        Details
-                                    </section>
-                                    <section class="dropdown-item danger icon">
-                                        <i class="far fa-trash-alt"></i>
-                                        Remove
+                <section class="explorer">
+                    <section class="explorer-section">
+                        <section class="line"></section>
+                        <span class="name">Directories</span>
+                    </section>
+
+                    <section class="explorer-list">
+                        <section class="item back">
+                            <section class="item-icon"></section>
+                            <section class="item-name">...</section>
+                        </section>
+
+                        <section class="item directory selected">
+                            <section class="item-checkbox"></section>
+                            <section class="item-icon"></section>
+                            <section class="item-data">
+                                <section class="name">Alarms</section>
+                                <section class="details">
+                                    <section class="summary">1026 items | 144.60 MB</section>
+                                    <section class="date">Dec 30, 2017 13:23:10</section>
+                                </section>
+                            </section>
+                            <section class="item-options"><i class="fas fa-ellipsis-v"></i></section>
+                        </section>
+
+                        <section class="item directory">
+                            <section class="item-checkbox"></section>
+                            <section class="item-icon"></section>
+                            <section class="item-data">
+                                <section class="name">DCIM</section>
+                                <section class="details">
+                                    <section class="summary">501 items | 10.03 MB</section>
+                                    <section class="date">Dec 30, 2017 13:32:01</section>
+                                </section>
+                            </section>
+                            <section class="item-options">
+                                <section class="dropdown right open">
+                                    <button class="dropdown-toggle" type="button">
+                                        <i class="fas fa-ellipsis-v"></i>
+                                    </button>
+                                    <section class="dropdown-menu">
+                                        <section class="dropdown-item header">Section title</section>
+                                        <section class="dropdown-item icon">
+                                            <i class="fas fa-download"></i> Download
+                                        </section>
+                                        <section class="dropdown-item icon">
+                                            <i class="fas fa-info-circle"></i> Details
+                                        </section>
+                                        <section class="dropdown-item danger icon">
+                                            <i class="far fa-trash-alt"></i> Remove
+                                        </section>
                                     </section>
                                 </section>
                             </section>
-
                         </section>
                     </section>
 
+                    <section class="explorer-section">
+                        <section class="line"></section>
+                        <span class="name">Files</span>
+                    </section>
+
+                    <section class="explorer-list">
+                        <section class="item file ext-jpg">
+                            <section class="item-checkbox"></section>
+                            <section class="item-icon"></section>
+                            <section class="item-data">
+                                <section class="name">Landscape.jpg</section>
+                                <section class="details">
+                                    <section class="summary">JPG | 2.32 MB</section>
+                                    <section class="date">Dec 30, 2017 18:12:32</section>
+                                </section>
+                            </section>
+                            <section class="item-options"><i class="fas fa-ellipsis-v"></i></section>
+                        </section>
+                    </section>
                 </section>
 
-                <section class="explorer-section">
-                    <section class="line"></section>
-                    <span class="name">Files</span>
-                </section>
+                <section class="modal">
+                    <section class="modal-dialog">
+                        <button type="button" class="close"><i class="fas fa-times"></i></button>
+                        <header class="header">
+                            <section class="line"></section>
+                            <span class="content">Create new directory</span>
+                        </header>
+                        <section class="content">
+                            <p>
+                                Sed eget arcu sapien. In consequat lectus eget libero vestibulum viverra. Duis aliquam
+                                est id mauris sodales viverra.
+                            </p>
 
-                <section class="explorer-list">
-
-                    <section class="item file ext-jpg">
-                        <section class="item-checkbox"></section>
-                        <section class="item-icon"></section>
-                        <section class="item-data">
-                            <section class="name">Landscape.jpg</section>
-                            <section class="details">
-                                <section class="summary">JPG | 2.32 MB</section>
-                                <section class="date">Dec 30, 2017 18:12:32</section>
+                            <section class="padding-t-20">
+                                <input
+                                    type="text"
+                                    class="form-input"
+                                    name="dirName"
+                                    id="dirName"
+                                    placeholder="Directory name"
+                                />
                             </section>
                         </section>
-                        <section class="item-options">
-                            <i class="fas fa-ellipsis-v"></i>
+                        <section class="footer">
+                            <button type="button" class="btn btn-danger btn-round">Cancel</button>
+                            <button type="button" class="btn btn-success btn-round">Create</button>
                         </section>
                     </section>
                 </section>
             </section>
-
-            <section class="modal-canvas"></section>
-            <section class="modal">
-                <header class="header">
-                    <section class="line"></section>
-                    <span class="content">Create new directory</span>
-                </header>
-                <section class="content">
-                    <p>Sed eget arcu sapien. In consequat lectus eget libero vestibulum viverra. Duis aliquam est id mauris sodales viverra.</p>
-                </section>
-            </section>
-
         </section>
-    </section>
-
-</body>
+    </body>
 </html>

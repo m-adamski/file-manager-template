@@ -25,9 +25,9 @@
         &-icon {
             position: relative;
             display: block;
-            width: 48px;
+            width: 42px;
             min-width: 20px;
-            height: 48px;
+            height: 42px;
             margin: 0 20px 0 10px;
 
             @include media-breakpoint-down(sm) {

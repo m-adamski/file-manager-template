@@ -7,10 +7,13 @@
 
 .fm-container {
     @import "flex";
+    @import "offset";
     @import "modules/nav";
+    @import "modules/breadcrumbs";
     @import "modules/sidebar";
     @import "modules/explorer";
     @import "modules/dropdown";
     @import "modules/button";
     @import "modules/modal";
+    @import "modules/form";
 }

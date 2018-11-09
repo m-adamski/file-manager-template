@@ -11,6 +11,10 @@
     border-bottom: 1px solid $color-nav-border;
     z-index: 10;
 
+    @include media-breakpoint-down(md) {
+        display: none;
+    }
+
     &-side {
         position: relative;
         display: flex;
@@ -20,16 +24,27 @@
         align-content: center;
         width: $nav-side-width;
         padding: 10px 20px;
+
+        @include media-breakpoint-down(lg) {
+            width: $nav-side-small-width;
+        }
     }
 
     &-menu {
         position: relative;
         display: flex;
-        flex-flow: row nowrap;
-        justify-content: space-between;
-        align-items: center;
-        align-content: center;
+        flex-flow: column nowrap;
         flex-grow: 1;
-        padding: 10px 20px;
+
+        .menu {
+            position: relative;
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: space-between;
+            align-items: center;
+            align-content: center;
+            flex-grow: 1;
+            padding: 10px 20px;
+        }
     }
 }
