@@ -1,3 +1,5 @@
+$fa-font-path: "../webfonts/fontawesome";
+
 $grid-breakpoints: (
     xs: 0,
     sm: 576px,
@@ -13,6 +15,7 @@ $explorer-icons: (
 );
 
 $nav-height: 100px;
+$nav-light-height: 50px;
 $nav-side-width: 500px;
 $nav-side-small-width: 200px;
 

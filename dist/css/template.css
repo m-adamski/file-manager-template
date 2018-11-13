@@ -7,8 +7,8 @@
   font-family: 'Font Awesome 5 Free';
   font-style: normal;
   font-weight: 400;
-  src: url("../webfonts/fa-regular-400.eot");
-  src: url("../webfonts/fa-regular-400.eot?#iefix") format("embedded-opentype"), url("../webfonts/fa-regular-400.woff2") format("woff2"), url("../webfonts/fa-regular-400.woff") format("woff"), url("../webfonts/fa-regular-400.ttf") format("truetype"), url("../webfonts/fa-regular-400.svg#fontawesome") format("svg"); }
+  src: url("../webfonts/fontawesome/fa-regular-400.eot");
+  src: url("../webfonts/fontawesome/fa-regular-400.eot?#iefix") format("embedded-opentype"), url("../webfonts/fontawesome/fa-regular-400.woff2") format("woff2"), url("../webfonts/fontawesome/fa-regular-400.woff") format("woff"), url("../webfonts/fontawesome/fa-regular-400.ttf") format("truetype"), url("../webfonts/fontawesome/fa-regular-400.svg#fontawesome") format("svg"); }
 
 .far {
   font-family: 'Font Awesome 5 Free';
@@ -22,8 +22,8 @@
   font-family: 'Font Awesome 5 Free';
   font-style: normal;
   font-weight: 900;
-  src: url("../webfonts/fa-solid-900.eot");
-  src: url("../webfonts/fa-solid-900.eot?#iefix") format("embedded-opentype"), url("../webfonts/fa-solid-900.woff2") format("woff2"), url("../webfonts/fa-solid-900.woff") format("woff"), url("../webfonts/fa-solid-900.ttf") format("truetype"), url("../webfonts/fa-solid-900.svg#fontawesome") format("svg"); }
+  src: url("../webfonts/fontawesome/fa-solid-900.eot");
+  src: url("../webfonts/fontawesome/fa-solid-900.eot?#iefix") format("embedded-opentype"), url("../webfonts/fontawesome/fa-solid-900.woff2") format("woff2"), url("../webfonts/fontawesome/fa-solid-900.woff") format("woff"), url("../webfonts/fontawesome/fa-solid-900.ttf") format("truetype"), url("../webfonts/fontawesome/fa-solid-900.svg#fontawesome") format("svg"); }
 
 .fa,
 .fas {
@@ -6366,7 +6366,7 @@ readers do not read off random characters that represent icons */
   z-index: 10; }
   @media (max-width: 991.98px) {
     .fm-container .nav {
-      display: none; } }
+      min-height: 50px; } }
   .fm-container .nav-side {
     position: relative;
     display: flex;
@@ -6379,6 +6379,9 @@ readers do not read off random characters that represent icons */
     @media (max-width: 1199.98px) {
       .fm-container .nav-side {
         width: 200px; } }
+    @media (max-width: 991.98px) {
+      .fm-container .nav-side {
+        display: none; } }
   .fm-container .nav-menu {
     position: relative;
     display: flex;
@@ -6393,6 +6396,20 @@ readers do not read off random characters that represent icons */
       align-content: center;
       flex-grow: 1;
       padding: 10px 20px; }
+    @media (max-width: 991.98px) {
+      .fm-container .nav-menu {
+        display: none; } }
+  .fm-container .nav-light {
+    position: relative;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    align-items: center;
+    flex-grow: 1;
+    padding: 10px 20px; }
+    @media (min-width: 992px) {
+      .fm-container .nav-light {
+        display: none; } }
 
 .fm-container .breadcrumbs .list {
   position: relative;
@@ -6684,7 +6701,7 @@ readers do not read off random characters that represent icons */
     .fm-container .dropdown-menu.menu-btn {
       top: 45px; }
     .fm-container .dropdown-menu.menu-btn-offset::before, .fm-container .dropdown-menu.menu-btn-offset::after {
-      left: 30px; }
+      left: 24px; }
     .fm-container .dropdown-menu::before, .fm-container .dropdown-menu::after {
       content: "";
       position: absolute;
@@ -6732,7 +6749,7 @@ readers do not read off random characters that represent icons */
     left: auto;
     right: -8px; }
     .fm-container .dropdown.right .dropdown-menu.menu-btn-offset::before, .fm-container .dropdown.right .dropdown-menu.menu-btn-offset::after {
-      right: 30px; }
+      right: 24px; }
     .fm-container .dropdown.right .dropdown-menu::before, .fm-container .dropdown.right .dropdown-menu::after {
       left: auto;
       right: 7px; }
