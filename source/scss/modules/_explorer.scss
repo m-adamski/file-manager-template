@@ -65,8 +65,8 @@
             &-checkbox {
                 position: relative;
                 display: block;
-                min-width: 13px;
-                height: 13px;
+                min-width: 14px;
+                height: 14px;
                 margin: 0 10px;
                 border: 1px solid $color-explorer-item-checkbox-border;
                 cursor: pointer;
@@ -132,7 +132,7 @@
                         position: absolute;
                         display: block;
                         top: 1px;
-                        left: 1px;
+                        left: 2px;
                         @include awesome-solid-font(.7em);
                         color: $color-explorer-item-checkbox-icon;
                     }
@@ -146,6 +146,114 @@
                     background-repeat: no-repeat;
                     background-color: transparent;
                     background-size: contain;
+                }
+
+                &.ext-css,
+                &.ext-sass,
+                &.ext-less {
+                    .item-icon {
+                        background-image: url("../images/icons/file-type/icon-file-css.png");
+                    }
+                }
+
+                &.ext-gif {
+                    .item-icon {
+                        background-image: url("../images/icons/file-type/icon-file-gif.png");
+                    }
+                }
+
+                &.ext-html,
+                &.ext-xml {
+                    .item-icon {
+                        background-image: url("../images/icons/file-type/icon-file-html.png");
+                    }
+                }
+
+                &.ext-jpg,
+                &.ext-jpeg {
+                    .item-icon {
+                        background-image: url("../images/icons/file-type/icon-file-jpg.png");
+                    }
+                }
+
+                &.ext-mp3,
+                &.ext-wav,
+                &.ext-ogg {
+                    .item-icon {
+                        background-image: url("../images/icons/file-type/icon-file-mp3.png");
+                    }
+                }
+
+                &.ext-mp4,
+                &.ext-avi,
+                &.ext-m4v,
+                &.ext-mov,
+                &.ext-swf {
+                    .item-icon {
+                        background-image: url("../images/icons/file-type/icon-file-mp4.png");
+                    }
+                }
+
+                &.ext-pdf {
+                    .item-icon {
+                        background-image: url("../images/icons/file-type/icon-file-pdf.png");
+                    }
+                }
+
+                &.ext-png {
+                    .item-icon {
+                        background-image: url("../images/icons/file-type/icon-file-png.png");
+                    }
+                }
+
+                &.ext-ppt,
+                &.ext-pptx,
+                &.ext-pptm {
+                    .item-icon {
+                        background-image: url("../images/icons/file-type/icon-file-ppt.png");
+                    }
+                }
+
+                &.ext-psd {
+                    .item-icon {
+                        background-image: url("../images/icons/file-type/icon-file-psd.png");
+                    }
+                }
+
+                &.ext-sql {
+                    .item-icon {
+                        background-image: url("../images/icons/file-type/icon-file-sql.png");
+                    }
+                }
+
+                &.ext-txt,
+                &.ext-doc,
+                &.ext-odt {
+                    .item-icon {
+                        background-image: url("../images/icons/file-type/icon-file-txt.png");
+                    }
+                }
+
+                &.ext-xls,
+                &.ext-xla,
+                &.ext-xlt,
+                &.ext-xlk,
+                &.ext-xlsx,
+                &.ext-xltm,
+                &.ext-ods,
+                &.ext-ots,
+                &.ext-csv {
+                    .item-icon {
+                        background-image: url("../images/icons/file-type/icon-file-xls.png");
+                    }
+                }
+
+                &.ext-zip,
+                &.ext-7zip,
+                &.ext-rar {
+                    .item-icon {
+                        background-image: url("../images/icons/file-type/icon-file-zip.png");
+                    }
                 }
             }
 

@@ -6576,8 +6576,8 @@ readers do not read off random characters that represent icons */
       .fm-container .explorer-list .item-checkbox {
         position: relative;
         display: block;
-        min-width: 13px;
-        height: 13px;
+        min-width: 14px;
+        height: 14px;
         margin: 0 10px;
         border: 1px solid #999999;
         cursor: pointer; }
@@ -6628,7 +6628,7 @@ readers do not read off random characters that represent icons */
           position: absolute;
           display: block;
           top: 1px;
-          left: 1px;
+          left: 2px;
           font-family: "Font Awesome 5 Free", sans-serif;
           font-size: 0.7em;
           font-weight: 900;
@@ -6639,6 +6639,34 @@ readers do not read off random characters that represent icons */
         background-repeat: no-repeat;
         background-color: transparent;
         background-size: contain; }
+      .fm-container .explorer-list .item.file.ext-css .item-icon, .fm-container .explorer-list .item.file.ext-sass .item-icon, .fm-container .explorer-list .item.file.ext-less .item-icon {
+        background-image: url("../images/icons/file-type/icon-file-css.png"); }
+      .fm-container .explorer-list .item.file.ext-gif .item-icon {
+        background-image: url("../images/icons/file-type/icon-file-gif.png"); }
+      .fm-container .explorer-list .item.file.ext-html .item-icon, .fm-container .explorer-list .item.file.ext-xml .item-icon {
+        background-image: url("../images/icons/file-type/icon-file-html.png"); }
+      .fm-container .explorer-list .item.file.ext-jpg .item-icon, .fm-container .explorer-list .item.file.ext-jpeg .item-icon {
+        background-image: url("../images/icons/file-type/icon-file-jpg.png"); }
+      .fm-container .explorer-list .item.file.ext-mp3 .item-icon, .fm-container .explorer-list .item.file.ext-wav .item-icon, .fm-container .explorer-list .item.file.ext-ogg .item-icon {
+        background-image: url("../images/icons/file-type/icon-file-mp3.png"); }
+      .fm-container .explorer-list .item.file.ext-mp4 .item-icon, .fm-container .explorer-list .item.file.ext-avi .item-icon, .fm-container .explorer-list .item.file.ext-m4v .item-icon, .fm-container .explorer-list .item.file.ext-mov .item-icon, .fm-container .explorer-list .item.file.ext-swf .item-icon {
+        background-image: url("../images/icons/file-type/icon-file-mp4.png"); }
+      .fm-container .explorer-list .item.file.ext-pdf .item-icon {
+        background-image: url("../images/icons/file-type/icon-file-pdf.png"); }
+      .fm-container .explorer-list .item.file.ext-png .item-icon {
+        background-image: url("../images/icons/file-type/icon-file-png.png"); }
+      .fm-container .explorer-list .item.file.ext-ppt .item-icon, .fm-container .explorer-list .item.file.ext-pptx .item-icon, .fm-container .explorer-list .item.file.ext-pptm .item-icon {
+        background-image: url("../images/icons/file-type/icon-file-ppt.png"); }
+      .fm-container .explorer-list .item.file.ext-psd .item-icon {
+        background-image: url("../images/icons/file-type/icon-file-psd.png"); }
+      .fm-container .explorer-list .item.file.ext-sql .item-icon {
+        background-image: url("../images/icons/file-type/icon-file-sql.png"); }
+      .fm-container .explorer-list .item.file.ext-txt .item-icon, .fm-container .explorer-list .item.file.ext-doc .item-icon, .fm-container .explorer-list .item.file.ext-odt .item-icon {
+        background-image: url("../images/icons/file-type/icon-file-txt.png"); }
+      .fm-container .explorer-list .item.file.ext-xls .item-icon, .fm-container .explorer-list .item.file.ext-xla .item-icon, .fm-container .explorer-list .item.file.ext-xlt .item-icon, .fm-container .explorer-list .item.file.ext-xlk .item-icon, .fm-container .explorer-list .item.file.ext-xlsx .item-icon, .fm-container .explorer-list .item.file.ext-xltm .item-icon, .fm-container .explorer-list .item.file.ext-ods .item-icon, .fm-container .explorer-list .item.file.ext-ots .item-icon, .fm-container .explorer-list .item.file.ext-csv .item-icon {
+        background-image: url("../images/icons/file-type/icon-file-xls.png"); }
+      .fm-container .explorer-list .item.file.ext-zip .item-icon, .fm-container .explorer-list .item.file.ext-7zip .item-icon, .fm-container .explorer-list .item.file.ext-rar .item-icon {
+        background-image: url("../images/icons/file-type/icon-file-zip.png"); }
       .fm-container .explorer-list .item.directory .item-icon {
         background-image: url("../images/icons/file-type/icon-directory.png");
         background-position: 50% 50%;
@@ -6776,9 +6804,9 @@ readers do not read off random characters that represent icons */
     opacity: .5; }
   .fm-container .btn-primary {
     color: #ffffff;
-    background-color: #6d5cae; }
+    background-color: #007aff; }
     .fm-container .btn-primary:hover {
-      background-color: #564790; }
+      background-color: #0062cc; }
   .fm-container .btn-default {
     color: #292d38;
     background-color: #eeeeee; }
