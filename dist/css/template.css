@@ -6743,6 +6743,9 @@ readers do not read off random characters that represent icons */
       cursor: default; }
       .fm-container .dropdown-item.header:hover {
         background-color: transparent; }
+    .fm-container .dropdown-item.disabled {
+      pointer-events: none;
+      opacity: .5; }
     .fm-container .dropdown-item:hover {
       background-color: #f0f0f0; }
   .fm-container .dropdown.right .dropdown-menu {

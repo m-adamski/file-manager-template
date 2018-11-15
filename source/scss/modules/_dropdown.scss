@@ -90,6 +90,11 @@
             }
         }
 
+        &.disabled {
+            pointer-events: none;
+            opacity: .5;
+        }
+
         &:hover {
             background-color: $color-dropdown-item-hover-bg;
         }

@@ -2,14 +2,14 @@
     "name": "file-manager-template",
     "version": "1.0.0",
     "description": "Static template of the file manager plugin",
-    "main": "index.js",
+    "main": "dist/index.html",
     "repository": "git@github.com:m-adamski/file-manager-template.git",
     "author": "Maciej Adamski <m.adamski@ideacode.pl>",
     "license": "MIT",
     "private": false,
     "scripts": {
         "build": "gulp",
-        "compile-sync": "gulp watch-sync"
+        "start": "gulp watch-sync"
     },
     "devDependencies": {
         "@fortawesome/fontawesome-free": "^5.5.0",
