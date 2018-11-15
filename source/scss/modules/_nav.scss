@@ -25,7 +25,7 @@
         width: $nav-side-width;
         padding: 10px 20px;
 
-        @include media-breakpoint-down(lg) {
+        @include media-breakpoint-down(xxl) {
             width: $nav-side-small-width;
         }
 

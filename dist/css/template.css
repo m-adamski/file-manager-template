@@ -6376,7 +6376,7 @@ readers do not read off random characters that represent icons */
     align-content: center;
     width: 500px;
     padding: 10px 20px; }
-    @media (max-width: 1199.98px) {
+    @media (max-width: 1699.98px) {
       .fm-container .nav-side {
         width: 200px; } }
     @media (max-width: 991.98px) {
