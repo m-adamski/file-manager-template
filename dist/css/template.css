@@ -1,6 +1,6 @@
 @import url("https://use.fontawesome.com/releases/v5.5.0/css/all.css");
 @import url("https://fonts.googleapis.com/css?family=Fira+Sans+Condensed:300,400,500,600,700&subset=latin-ext");
-.fm-container {
+.file-manager-container {
   position: relative;
   display: flex;
   flex-flow: row nowrap;
@@ -11,2353 +11,2353 @@
   font-weight: 400;
   background-color: #ffffff; }
 
-.fm-container .flex {
+.file-manager-container .flex {
   position: relative;
   display: flex; }
-  .fm-container .flex-row {
+  .file-manager-container .flex-row {
     flex-direction: row; }
-  .fm-container .flex-column {
+  .file-manager-container .flex-column {
     flex-direction: column; }
-  .fm-container .flex-wrap {
+  .file-manager-container .flex-wrap {
     flex-wrap: wrap; }
-  .fm-container .flex-nowrap {
+  .file-manager-container .flex-nowrap {
     flex-wrap: nowrap; }
-  .fm-container .flex-justify-start {
+  .file-manager-container .flex-justify-start {
     justify-content: flex-start; }
-  .fm-container .flex-justify-end {
+  .file-manager-container .flex-justify-end {
     justify-content: flex-end; }
-  .fm-container .flex-justify-center {
+  .file-manager-container .flex-justify-center {
     justify-content: center; }
-  .fm-container .flex-justify-space-between {
+  .file-manager-container .flex-justify-space-between {
     justify-content: space-between; }
-  .fm-container .flex-justify-space-around {
+  .file-manager-container .flex-justify-space-around {
     justify-content: space-around; }
-  .fm-container .flex-align-stretch {
+  .file-manager-container .flex-align-stretch {
     align-items: stretch; }
-  .fm-container .flex-align-start {
+  .file-manager-container .flex-align-start {
     align-items: flex-start; }
-  .fm-container .flex-align-end {
+  .file-manager-container .flex-align-end {
     align-items: flex-end; }
-  .fm-container .flex-align-center {
+  .file-manager-container .flex-align-center {
     align-items: center; }
-  .fm-container .flex-align-content-stretch {
+  .file-manager-container .flex-align-content-stretch {
     align-content: stretch; }
-  .fm-container .flex-align-content-start {
+  .file-manager-container .flex-align-content-start {
     align-content: flex-start; }
-  .fm-container .flex-align-content-end {
+  .file-manager-container .flex-align-content-end {
     align-content: flex-end; }
-  .fm-container .flex-align-content-center {
+  .file-manager-container .flex-align-content-center {
     align-content: center; }
-  .fm-container .flex-align-content-space-between {
+  .file-manager-container .flex-align-content-space-between {
     align-content: space-between; }
-  .fm-container .flex-align-content-space-around {
+  .file-manager-container .flex-align-content-space-around {
     align-content: space-around; }
 
-.fm-container .padding-l-5 {
+.file-manager-container .padding-l-5 {
   padding-left: 5px; }
 
-.fm-container .padding-l-6 {
+.file-manager-container .padding-l-6 {
   padding-left: 6px; }
 
-.fm-container .padding-l-7 {
+.file-manager-container .padding-l-7 {
   padding-left: 7px; }
 
-.fm-container .padding-l-8 {
+.file-manager-container .padding-l-8 {
   padding-left: 8px; }
 
-.fm-container .padding-l-9 {
+.file-manager-container .padding-l-9 {
   padding-left: 9px; }
 
-.fm-container .padding-l-10 {
+.file-manager-container .padding-l-10 {
   padding-left: 10px; }
 
-.fm-container .padding-l-11 {
+.file-manager-container .padding-l-11 {
   padding-left: 11px; }
 
-.fm-container .padding-l-12 {
+.file-manager-container .padding-l-12 {
   padding-left: 12px; }
 
-.fm-container .padding-l-13 {
+.file-manager-container .padding-l-13 {
   padding-left: 13px; }
 
-.fm-container .padding-l-14 {
+.file-manager-container .padding-l-14 {
   padding-left: 14px; }
 
-.fm-container .padding-l-15 {
+.file-manager-container .padding-l-15 {
   padding-left: 15px; }
 
-.fm-container .padding-l-16 {
+.file-manager-container .padding-l-16 {
   padding-left: 16px; }
 
-.fm-container .padding-l-17 {
+.file-manager-container .padding-l-17 {
   padding-left: 17px; }
 
-.fm-container .padding-l-18 {
+.file-manager-container .padding-l-18 {
   padding-left: 18px; }
 
-.fm-container .padding-l-19 {
+.file-manager-container .padding-l-19 {
   padding-left: 19px; }
 
-.fm-container .padding-l-20 {
+.file-manager-container .padding-l-20 {
   padding-left: 20px; }
 
-.fm-container .padding-l-21 {
+.file-manager-container .padding-l-21 {
   padding-left: 21px; }
 
-.fm-container .padding-l-22 {
+.file-manager-container .padding-l-22 {
   padding-left: 22px; }
 
-.fm-container .padding-l-23 {
+.file-manager-container .padding-l-23 {
   padding-left: 23px; }
 
-.fm-container .padding-l-24 {
+.file-manager-container .padding-l-24 {
   padding-left: 24px; }
 
-.fm-container .padding-l-25 {
+.file-manager-container .padding-l-25 {
   padding-left: 25px; }
 
-.fm-container .padding-l-26 {
+.file-manager-container .padding-l-26 {
   padding-left: 26px; }
 
-.fm-container .padding-l-27 {
+.file-manager-container .padding-l-27 {
   padding-left: 27px; }
 
-.fm-container .padding-l-28 {
+.file-manager-container .padding-l-28 {
   padding-left: 28px; }
 
-.fm-container .padding-l-29 {
+.file-manager-container .padding-l-29 {
   padding-left: 29px; }
 
-.fm-container .padding-l-30 {
+.file-manager-container .padding-l-30 {
   padding-left: 30px; }
 
-.fm-container .padding-l-31 {
+.file-manager-container .padding-l-31 {
   padding-left: 31px; }
 
-.fm-container .padding-l-32 {
+.file-manager-container .padding-l-32 {
   padding-left: 32px; }
 
-.fm-container .padding-l-33 {
+.file-manager-container .padding-l-33 {
   padding-left: 33px; }
 
-.fm-container .padding-l-34 {
+.file-manager-container .padding-l-34 {
   padding-left: 34px; }
 
-.fm-container .padding-l-35 {
+.file-manager-container .padding-l-35 {
   padding-left: 35px; }
 
-.fm-container .padding-l-36 {
+.file-manager-container .padding-l-36 {
   padding-left: 36px; }
 
-.fm-container .padding-l-37 {
+.file-manager-container .padding-l-37 {
   padding-left: 37px; }
 
-.fm-container .padding-l-38 {
+.file-manager-container .padding-l-38 {
   padding-left: 38px; }
 
-.fm-container .padding-l-39 {
+.file-manager-container .padding-l-39 {
   padding-left: 39px; }
 
-.fm-container .padding-l-40 {
+.file-manager-container .padding-l-40 {
   padding-left: 40px; }
 
-.fm-container .padding-l-41 {
+.file-manager-container .padding-l-41 {
   padding-left: 41px; }
 
-.fm-container .padding-l-42 {
+.file-manager-container .padding-l-42 {
   padding-left: 42px; }
 
-.fm-container .padding-l-43 {
+.file-manager-container .padding-l-43 {
   padding-left: 43px; }
 
-.fm-container .padding-l-44 {
+.file-manager-container .padding-l-44 {
   padding-left: 44px; }
 
-.fm-container .padding-l-45 {
+.file-manager-container .padding-l-45 {
   padding-left: 45px; }
 
-.fm-container .padding-l-46 {
+.file-manager-container .padding-l-46 {
   padding-left: 46px; }
 
-.fm-container .padding-l-47 {
+.file-manager-container .padding-l-47 {
   padding-left: 47px; }
 
-.fm-container .padding-l-48 {
+.file-manager-container .padding-l-48 {
   padding-left: 48px; }
 
-.fm-container .padding-l-49 {
+.file-manager-container .padding-l-49 {
   padding-left: 49px; }
 
-.fm-container .padding-l-50 {
+.file-manager-container .padding-l-50 {
   padding-left: 50px; }
 
-.fm-container .padding-l-51 {
+.file-manager-container .padding-l-51 {
   padding-left: 51px; }
 
-.fm-container .padding-l-52 {
+.file-manager-container .padding-l-52 {
   padding-left: 52px; }
 
-.fm-container .padding-l-53 {
+.file-manager-container .padding-l-53 {
   padding-left: 53px; }
 
-.fm-container .padding-l-54 {
+.file-manager-container .padding-l-54 {
   padding-left: 54px; }
 
-.fm-container .padding-l-55 {
+.file-manager-container .padding-l-55 {
   padding-left: 55px; }
 
-.fm-container .padding-l-56 {
+.file-manager-container .padding-l-56 {
   padding-left: 56px; }
 
-.fm-container .padding-l-57 {
+.file-manager-container .padding-l-57 {
   padding-left: 57px; }
 
-.fm-container .padding-l-58 {
+.file-manager-container .padding-l-58 {
   padding-left: 58px; }
 
-.fm-container .padding-l-59 {
+.file-manager-container .padding-l-59 {
   padding-left: 59px; }
 
-.fm-container .padding-l-60 {
+.file-manager-container .padding-l-60 {
   padding-left: 60px; }
 
-.fm-container .padding-l-61 {
+.file-manager-container .padding-l-61 {
   padding-left: 61px; }
 
-.fm-container .padding-l-62 {
+.file-manager-container .padding-l-62 {
   padding-left: 62px; }
 
-.fm-container .padding-l-63 {
+.file-manager-container .padding-l-63 {
   padding-left: 63px; }
 
-.fm-container .padding-l-64 {
+.file-manager-container .padding-l-64 {
   padding-left: 64px; }
 
-.fm-container .padding-l-65 {
+.file-manager-container .padding-l-65 {
   padding-left: 65px; }
 
-.fm-container .padding-l-66 {
+.file-manager-container .padding-l-66 {
   padding-left: 66px; }
 
-.fm-container .padding-l-67 {
+.file-manager-container .padding-l-67 {
   padding-left: 67px; }
 
-.fm-container .padding-l-68 {
+.file-manager-container .padding-l-68 {
   padding-left: 68px; }
 
-.fm-container .padding-l-69 {
+.file-manager-container .padding-l-69 {
   padding-left: 69px; }
 
-.fm-container .padding-l-70 {
+.file-manager-container .padding-l-70 {
   padding-left: 70px; }
 
-.fm-container .padding-l-71 {
+.file-manager-container .padding-l-71 {
   padding-left: 71px; }
 
-.fm-container .padding-l-72 {
+.file-manager-container .padding-l-72 {
   padding-left: 72px; }
 
-.fm-container .padding-l-73 {
+.file-manager-container .padding-l-73 {
   padding-left: 73px; }
 
-.fm-container .padding-l-74 {
+.file-manager-container .padding-l-74 {
   padding-left: 74px; }
 
-.fm-container .padding-l-75 {
+.file-manager-container .padding-l-75 {
   padding-left: 75px; }
 
-.fm-container .padding-l-76 {
+.file-manager-container .padding-l-76 {
   padding-left: 76px; }
 
-.fm-container .padding-l-77 {
+.file-manager-container .padding-l-77 {
   padding-left: 77px; }
 
-.fm-container .padding-l-78 {
+.file-manager-container .padding-l-78 {
   padding-left: 78px; }
 
-.fm-container .padding-l-79 {
+.file-manager-container .padding-l-79 {
   padding-left: 79px; }
 
-.fm-container .padding-l-80 {
+.file-manager-container .padding-l-80 {
   padding-left: 80px; }
 
-.fm-container .padding-l-81 {
+.file-manager-container .padding-l-81 {
   padding-left: 81px; }
 
-.fm-container .padding-l-82 {
+.file-manager-container .padding-l-82 {
   padding-left: 82px; }
 
-.fm-container .padding-l-83 {
+.file-manager-container .padding-l-83 {
   padding-left: 83px; }
 
-.fm-container .padding-l-84 {
+.file-manager-container .padding-l-84 {
   padding-left: 84px; }
 
-.fm-container .padding-l-85 {
+.file-manager-container .padding-l-85 {
   padding-left: 85px; }
 
-.fm-container .padding-l-86 {
+.file-manager-container .padding-l-86 {
   padding-left: 86px; }
 
-.fm-container .padding-l-87 {
+.file-manager-container .padding-l-87 {
   padding-left: 87px; }
 
-.fm-container .padding-l-88 {
+.file-manager-container .padding-l-88 {
   padding-left: 88px; }
 
-.fm-container .padding-l-89 {
+.file-manager-container .padding-l-89 {
   padding-left: 89px; }
 
-.fm-container .padding-l-90 {
+.file-manager-container .padding-l-90 {
   padding-left: 90px; }
 
-.fm-container .padding-l-91 {
+.file-manager-container .padding-l-91 {
   padding-left: 91px; }
 
-.fm-container .padding-l-92 {
+.file-manager-container .padding-l-92 {
   padding-left: 92px; }
 
-.fm-container .padding-l-93 {
+.file-manager-container .padding-l-93 {
   padding-left: 93px; }
 
-.fm-container .padding-l-94 {
+.file-manager-container .padding-l-94 {
   padding-left: 94px; }
 
-.fm-container .padding-l-95 {
+.file-manager-container .padding-l-95 {
   padding-left: 95px; }
 
-.fm-container .padding-l-96 {
+.file-manager-container .padding-l-96 {
   padding-left: 96px; }
 
-.fm-container .padding-l-97 {
+.file-manager-container .padding-l-97 {
   padding-left: 97px; }
 
-.fm-container .padding-l-98 {
+.file-manager-container .padding-l-98 {
   padding-left: 98px; }
 
-.fm-container .padding-l-99 {
+.file-manager-container .padding-l-99 {
   padding-left: 99px; }
 
-.fm-container .padding-l-100 {
+.file-manager-container .padding-l-100 {
   padding-left: 100px; }
 
-.fm-container .padding-r-5 {
+.file-manager-container .padding-r-5 {
   padding-right: 5px; }
 
-.fm-container .padding-r-6 {
+.file-manager-container .padding-r-6 {
   padding-right: 6px; }
 
-.fm-container .padding-r-7 {
+.file-manager-container .padding-r-7 {
   padding-right: 7px; }
 
-.fm-container .padding-r-8 {
+.file-manager-container .padding-r-8 {
   padding-right: 8px; }
 
-.fm-container .padding-r-9 {
+.file-manager-container .padding-r-9 {
   padding-right: 9px; }
 
-.fm-container .padding-r-10 {
+.file-manager-container .padding-r-10 {
   padding-right: 10px; }
 
-.fm-container .padding-r-11 {
+.file-manager-container .padding-r-11 {
   padding-right: 11px; }
 
-.fm-container .padding-r-12 {
+.file-manager-container .padding-r-12 {
   padding-right: 12px; }
 
-.fm-container .padding-r-13 {
+.file-manager-container .padding-r-13 {
   padding-right: 13px; }
 
-.fm-container .padding-r-14 {
+.file-manager-container .padding-r-14 {
   padding-right: 14px; }
 
-.fm-container .padding-r-15 {
+.file-manager-container .padding-r-15 {
   padding-right: 15px; }
 
-.fm-container .padding-r-16 {
+.file-manager-container .padding-r-16 {
   padding-right: 16px; }
 
-.fm-container .padding-r-17 {
+.file-manager-container .padding-r-17 {
   padding-right: 17px; }
 
-.fm-container .padding-r-18 {
+.file-manager-container .padding-r-18 {
   padding-right: 18px; }
 
-.fm-container .padding-r-19 {
+.file-manager-container .padding-r-19 {
   padding-right: 19px; }
 
-.fm-container .padding-r-20 {
+.file-manager-container .padding-r-20 {
   padding-right: 20px; }
 
-.fm-container .padding-r-21 {
+.file-manager-container .padding-r-21 {
   padding-right: 21px; }
 
-.fm-container .padding-r-22 {
+.file-manager-container .padding-r-22 {
   padding-right: 22px; }
 
-.fm-container .padding-r-23 {
+.file-manager-container .padding-r-23 {
   padding-right: 23px; }
 
-.fm-container .padding-r-24 {
+.file-manager-container .padding-r-24 {
   padding-right: 24px; }
 
-.fm-container .padding-r-25 {
+.file-manager-container .padding-r-25 {
   padding-right: 25px; }
 
-.fm-container .padding-r-26 {
+.file-manager-container .padding-r-26 {
   padding-right: 26px; }
 
-.fm-container .padding-r-27 {
+.file-manager-container .padding-r-27 {
   padding-right: 27px; }
 
-.fm-container .padding-r-28 {
+.file-manager-container .padding-r-28 {
   padding-right: 28px; }
 
-.fm-container .padding-r-29 {
+.file-manager-container .padding-r-29 {
   padding-right: 29px; }
 
-.fm-container .padding-r-30 {
+.file-manager-container .padding-r-30 {
   padding-right: 30px; }
 
-.fm-container .padding-r-31 {
+.file-manager-container .padding-r-31 {
   padding-right: 31px; }
 
-.fm-container .padding-r-32 {
+.file-manager-container .padding-r-32 {
   padding-right: 32px; }
 
-.fm-container .padding-r-33 {
+.file-manager-container .padding-r-33 {
   padding-right: 33px; }
 
-.fm-container .padding-r-34 {
+.file-manager-container .padding-r-34 {
   padding-right: 34px; }
 
-.fm-container .padding-r-35 {
+.file-manager-container .padding-r-35 {
   padding-right: 35px; }
 
-.fm-container .padding-r-36 {
+.file-manager-container .padding-r-36 {
   padding-right: 36px; }
 
-.fm-container .padding-r-37 {
+.file-manager-container .padding-r-37 {
   padding-right: 37px; }
 
-.fm-container .padding-r-38 {
+.file-manager-container .padding-r-38 {
   padding-right: 38px; }
 
-.fm-container .padding-r-39 {
+.file-manager-container .padding-r-39 {
   padding-right: 39px; }
 
-.fm-container .padding-r-40 {
+.file-manager-container .padding-r-40 {
   padding-right: 40px; }
 
-.fm-container .padding-r-41 {
+.file-manager-container .padding-r-41 {
   padding-right: 41px; }
 
-.fm-container .padding-r-42 {
+.file-manager-container .padding-r-42 {
   padding-right: 42px; }
 
-.fm-container .padding-r-43 {
+.file-manager-container .padding-r-43 {
   padding-right: 43px; }
 
-.fm-container .padding-r-44 {
+.file-manager-container .padding-r-44 {
   padding-right: 44px; }
 
-.fm-container .padding-r-45 {
+.file-manager-container .padding-r-45 {
   padding-right: 45px; }
 
-.fm-container .padding-r-46 {
+.file-manager-container .padding-r-46 {
   padding-right: 46px; }
 
-.fm-container .padding-r-47 {
+.file-manager-container .padding-r-47 {
   padding-right: 47px; }
 
-.fm-container .padding-r-48 {
+.file-manager-container .padding-r-48 {
   padding-right: 48px; }
 
-.fm-container .padding-r-49 {
+.file-manager-container .padding-r-49 {
   padding-right: 49px; }
 
-.fm-container .padding-r-50 {
+.file-manager-container .padding-r-50 {
   padding-right: 50px; }
 
-.fm-container .padding-r-51 {
+.file-manager-container .padding-r-51 {
   padding-right: 51px; }
 
-.fm-container .padding-r-52 {
+.file-manager-container .padding-r-52 {
   padding-right: 52px; }
 
-.fm-container .padding-r-53 {
+.file-manager-container .padding-r-53 {
   padding-right: 53px; }
 
-.fm-container .padding-r-54 {
+.file-manager-container .padding-r-54 {
   padding-right: 54px; }
 
-.fm-container .padding-r-55 {
+.file-manager-container .padding-r-55 {
   padding-right: 55px; }
 
-.fm-container .padding-r-56 {
+.file-manager-container .padding-r-56 {
   padding-right: 56px; }
 
-.fm-container .padding-r-57 {
+.file-manager-container .padding-r-57 {
   padding-right: 57px; }
 
-.fm-container .padding-r-58 {
+.file-manager-container .padding-r-58 {
   padding-right: 58px; }
 
-.fm-container .padding-r-59 {
+.file-manager-container .padding-r-59 {
   padding-right: 59px; }
 
-.fm-container .padding-r-60 {
+.file-manager-container .padding-r-60 {
   padding-right: 60px; }
 
-.fm-container .padding-r-61 {
+.file-manager-container .padding-r-61 {
   padding-right: 61px; }
 
-.fm-container .padding-r-62 {
+.file-manager-container .padding-r-62 {
   padding-right: 62px; }
 
-.fm-container .padding-r-63 {
+.file-manager-container .padding-r-63 {
   padding-right: 63px; }
 
-.fm-container .padding-r-64 {
+.file-manager-container .padding-r-64 {
   padding-right: 64px; }
 
-.fm-container .padding-r-65 {
+.file-manager-container .padding-r-65 {
   padding-right: 65px; }
 
-.fm-container .padding-r-66 {
+.file-manager-container .padding-r-66 {
   padding-right: 66px; }
 
-.fm-container .padding-r-67 {
+.file-manager-container .padding-r-67 {
   padding-right: 67px; }
 
-.fm-container .padding-r-68 {
+.file-manager-container .padding-r-68 {
   padding-right: 68px; }
 
-.fm-container .padding-r-69 {
+.file-manager-container .padding-r-69 {
   padding-right: 69px; }
 
-.fm-container .padding-r-70 {
+.file-manager-container .padding-r-70 {
   padding-right: 70px; }
 
-.fm-container .padding-r-71 {
+.file-manager-container .padding-r-71 {
   padding-right: 71px; }
 
-.fm-container .padding-r-72 {
+.file-manager-container .padding-r-72 {
   padding-right: 72px; }
 
-.fm-container .padding-r-73 {
+.file-manager-container .padding-r-73 {
   padding-right: 73px; }
 
-.fm-container .padding-r-74 {
+.file-manager-container .padding-r-74 {
   padding-right: 74px; }
 
-.fm-container .padding-r-75 {
+.file-manager-container .padding-r-75 {
   padding-right: 75px; }
 
-.fm-container .padding-r-76 {
+.file-manager-container .padding-r-76 {
   padding-right: 76px; }
 
-.fm-container .padding-r-77 {
+.file-manager-container .padding-r-77 {
   padding-right: 77px; }
 
-.fm-container .padding-r-78 {
+.file-manager-container .padding-r-78 {
   padding-right: 78px; }
 
-.fm-container .padding-r-79 {
+.file-manager-container .padding-r-79 {
   padding-right: 79px; }
 
-.fm-container .padding-r-80 {
+.file-manager-container .padding-r-80 {
   padding-right: 80px; }
 
-.fm-container .padding-r-81 {
+.file-manager-container .padding-r-81 {
   padding-right: 81px; }
 
-.fm-container .padding-r-82 {
+.file-manager-container .padding-r-82 {
   padding-right: 82px; }
 
-.fm-container .padding-r-83 {
+.file-manager-container .padding-r-83 {
   padding-right: 83px; }
 
-.fm-container .padding-r-84 {
+.file-manager-container .padding-r-84 {
   padding-right: 84px; }
 
-.fm-container .padding-r-85 {
+.file-manager-container .padding-r-85 {
   padding-right: 85px; }
 
-.fm-container .padding-r-86 {
+.file-manager-container .padding-r-86 {
   padding-right: 86px; }
 
-.fm-container .padding-r-87 {
+.file-manager-container .padding-r-87 {
   padding-right: 87px; }
 
-.fm-container .padding-r-88 {
+.file-manager-container .padding-r-88 {
   padding-right: 88px; }
 
-.fm-container .padding-r-89 {
+.file-manager-container .padding-r-89 {
   padding-right: 89px; }
 
-.fm-container .padding-r-90 {
+.file-manager-container .padding-r-90 {
   padding-right: 90px; }
 
-.fm-container .padding-r-91 {
+.file-manager-container .padding-r-91 {
   padding-right: 91px; }
 
-.fm-container .padding-r-92 {
+.file-manager-container .padding-r-92 {
   padding-right: 92px; }
 
-.fm-container .padding-r-93 {
+.file-manager-container .padding-r-93 {
   padding-right: 93px; }
 
-.fm-container .padding-r-94 {
+.file-manager-container .padding-r-94 {
   padding-right: 94px; }
 
-.fm-container .padding-r-95 {
+.file-manager-container .padding-r-95 {
   padding-right: 95px; }
 
-.fm-container .padding-r-96 {
+.file-manager-container .padding-r-96 {
   padding-right: 96px; }
 
-.fm-container .padding-r-97 {
+.file-manager-container .padding-r-97 {
   padding-right: 97px; }
 
-.fm-container .padding-r-98 {
+.file-manager-container .padding-r-98 {
   padding-right: 98px; }
 
-.fm-container .padding-r-99 {
+.file-manager-container .padding-r-99 {
   padding-right: 99px; }
 
-.fm-container .padding-r-100 {
+.file-manager-container .padding-r-100 {
   padding-right: 100px; }
 
-.fm-container .padding-t-5 {
+.file-manager-container .padding-t-5 {
   padding-top: 5px; }
 
-.fm-container .padding-t-6 {
+.file-manager-container .padding-t-6 {
   padding-top: 6px; }
 
-.fm-container .padding-t-7 {
+.file-manager-container .padding-t-7 {
   padding-top: 7px; }
 
-.fm-container .padding-t-8 {
+.file-manager-container .padding-t-8 {
   padding-top: 8px; }
 
-.fm-container .padding-t-9 {
+.file-manager-container .padding-t-9 {
   padding-top: 9px; }
 
-.fm-container .padding-t-10 {
+.file-manager-container .padding-t-10 {
   padding-top: 10px; }
 
-.fm-container .padding-t-11 {
+.file-manager-container .padding-t-11 {
   padding-top: 11px; }
 
-.fm-container .padding-t-12 {
+.file-manager-container .padding-t-12 {
   padding-top: 12px; }
 
-.fm-container .padding-t-13 {
+.file-manager-container .padding-t-13 {
   padding-top: 13px; }
 
-.fm-container .padding-t-14 {
+.file-manager-container .padding-t-14 {
   padding-top: 14px; }
 
-.fm-container .padding-t-15 {
+.file-manager-container .padding-t-15 {
   padding-top: 15px; }
 
-.fm-container .padding-t-16 {
+.file-manager-container .padding-t-16 {
   padding-top: 16px; }
 
-.fm-container .padding-t-17 {
+.file-manager-container .padding-t-17 {
   padding-top: 17px; }
 
-.fm-container .padding-t-18 {
+.file-manager-container .padding-t-18 {
   padding-top: 18px; }
 
-.fm-container .padding-t-19 {
+.file-manager-container .padding-t-19 {
   padding-top: 19px; }
 
-.fm-container .padding-t-20 {
+.file-manager-container .padding-t-20 {
   padding-top: 20px; }
 
-.fm-container .padding-t-21 {
+.file-manager-container .padding-t-21 {
   padding-top: 21px; }
 
-.fm-container .padding-t-22 {
+.file-manager-container .padding-t-22 {
   padding-top: 22px; }
 
-.fm-container .padding-t-23 {
+.file-manager-container .padding-t-23 {
   padding-top: 23px; }
 
-.fm-container .padding-t-24 {
+.file-manager-container .padding-t-24 {
   padding-top: 24px; }
 
-.fm-container .padding-t-25 {
+.file-manager-container .padding-t-25 {
   padding-top: 25px; }
 
-.fm-container .padding-t-26 {
+.file-manager-container .padding-t-26 {
   padding-top: 26px; }
 
-.fm-container .padding-t-27 {
+.file-manager-container .padding-t-27 {
   padding-top: 27px; }
 
-.fm-container .padding-t-28 {
+.file-manager-container .padding-t-28 {
   padding-top: 28px; }
 
-.fm-container .padding-t-29 {
+.file-manager-container .padding-t-29 {
   padding-top: 29px; }
 
-.fm-container .padding-t-30 {
+.file-manager-container .padding-t-30 {
   padding-top: 30px; }
 
-.fm-container .padding-t-31 {
+.file-manager-container .padding-t-31 {
   padding-top: 31px; }
 
-.fm-container .padding-t-32 {
+.file-manager-container .padding-t-32 {
   padding-top: 32px; }
 
-.fm-container .padding-t-33 {
+.file-manager-container .padding-t-33 {
   padding-top: 33px; }
 
-.fm-container .padding-t-34 {
+.file-manager-container .padding-t-34 {
   padding-top: 34px; }
 
-.fm-container .padding-t-35 {
+.file-manager-container .padding-t-35 {
   padding-top: 35px; }
 
-.fm-container .padding-t-36 {
+.file-manager-container .padding-t-36 {
   padding-top: 36px; }
 
-.fm-container .padding-t-37 {
+.file-manager-container .padding-t-37 {
   padding-top: 37px; }
 
-.fm-container .padding-t-38 {
+.file-manager-container .padding-t-38 {
   padding-top: 38px; }
 
-.fm-container .padding-t-39 {
+.file-manager-container .padding-t-39 {
   padding-top: 39px; }
 
-.fm-container .padding-t-40 {
+.file-manager-container .padding-t-40 {
   padding-top: 40px; }
 
-.fm-container .padding-t-41 {
+.file-manager-container .padding-t-41 {
   padding-top: 41px; }
 
-.fm-container .padding-t-42 {
+.file-manager-container .padding-t-42 {
   padding-top: 42px; }
 
-.fm-container .padding-t-43 {
+.file-manager-container .padding-t-43 {
   padding-top: 43px; }
 
-.fm-container .padding-t-44 {
+.file-manager-container .padding-t-44 {
   padding-top: 44px; }
 
-.fm-container .padding-t-45 {
+.file-manager-container .padding-t-45 {
   padding-top: 45px; }
 
-.fm-container .padding-t-46 {
+.file-manager-container .padding-t-46 {
   padding-top: 46px; }
 
-.fm-container .padding-t-47 {
+.file-manager-container .padding-t-47 {
   padding-top: 47px; }
 
-.fm-container .padding-t-48 {
+.file-manager-container .padding-t-48 {
   padding-top: 48px; }
 
-.fm-container .padding-t-49 {
+.file-manager-container .padding-t-49 {
   padding-top: 49px; }
 
-.fm-container .padding-t-50 {
+.file-manager-container .padding-t-50 {
   padding-top: 50px; }
 
-.fm-container .padding-t-51 {
+.file-manager-container .padding-t-51 {
   padding-top: 51px; }
 
-.fm-container .padding-t-52 {
+.file-manager-container .padding-t-52 {
   padding-top: 52px; }
 
-.fm-container .padding-t-53 {
+.file-manager-container .padding-t-53 {
   padding-top: 53px; }
 
-.fm-container .padding-t-54 {
+.file-manager-container .padding-t-54 {
   padding-top: 54px; }
 
-.fm-container .padding-t-55 {
+.file-manager-container .padding-t-55 {
   padding-top: 55px; }
 
-.fm-container .padding-t-56 {
+.file-manager-container .padding-t-56 {
   padding-top: 56px; }
 
-.fm-container .padding-t-57 {
+.file-manager-container .padding-t-57 {
   padding-top: 57px; }
 
-.fm-container .padding-t-58 {
+.file-manager-container .padding-t-58 {
   padding-top: 58px; }
 
-.fm-container .padding-t-59 {
+.file-manager-container .padding-t-59 {
   padding-top: 59px; }
 
-.fm-container .padding-t-60 {
+.file-manager-container .padding-t-60 {
   padding-top: 60px; }
 
-.fm-container .padding-t-61 {
+.file-manager-container .padding-t-61 {
   padding-top: 61px; }
 
-.fm-container .padding-t-62 {
+.file-manager-container .padding-t-62 {
   padding-top: 62px; }
 
-.fm-container .padding-t-63 {
+.file-manager-container .padding-t-63 {
   padding-top: 63px; }
 
-.fm-container .padding-t-64 {
+.file-manager-container .padding-t-64 {
   padding-top: 64px; }
 
-.fm-container .padding-t-65 {
+.file-manager-container .padding-t-65 {
   padding-top: 65px; }
 
-.fm-container .padding-t-66 {
+.file-manager-container .padding-t-66 {
   padding-top: 66px; }
 
-.fm-container .padding-t-67 {
+.file-manager-container .padding-t-67 {
   padding-top: 67px; }
 
-.fm-container .padding-t-68 {
+.file-manager-container .padding-t-68 {
   padding-top: 68px; }
 
-.fm-container .padding-t-69 {
+.file-manager-container .padding-t-69 {
   padding-top: 69px; }
 
-.fm-container .padding-t-70 {
+.file-manager-container .padding-t-70 {
   padding-top: 70px; }
 
-.fm-container .padding-t-71 {
+.file-manager-container .padding-t-71 {
   padding-top: 71px; }
 
-.fm-container .padding-t-72 {
+.file-manager-container .padding-t-72 {
   padding-top: 72px; }
 
-.fm-container .padding-t-73 {
+.file-manager-container .padding-t-73 {
   padding-top: 73px; }
 
-.fm-container .padding-t-74 {
+.file-manager-container .padding-t-74 {
   padding-top: 74px; }
 
-.fm-container .padding-t-75 {
+.file-manager-container .padding-t-75 {
   padding-top: 75px; }
 
-.fm-container .padding-t-76 {
+.file-manager-container .padding-t-76 {
   padding-top: 76px; }
 
-.fm-container .padding-t-77 {
+.file-manager-container .padding-t-77 {
   padding-top: 77px; }
 
-.fm-container .padding-t-78 {
+.file-manager-container .padding-t-78 {
   padding-top: 78px; }
 
-.fm-container .padding-t-79 {
+.file-manager-container .padding-t-79 {
   padding-top: 79px; }
 
-.fm-container .padding-t-80 {
+.file-manager-container .padding-t-80 {
   padding-top: 80px; }
 
-.fm-container .padding-t-81 {
+.file-manager-container .padding-t-81 {
   padding-top: 81px; }
 
-.fm-container .padding-t-82 {
+.file-manager-container .padding-t-82 {
   padding-top: 82px; }
 
-.fm-container .padding-t-83 {
+.file-manager-container .padding-t-83 {
   padding-top: 83px; }
 
-.fm-container .padding-t-84 {
+.file-manager-container .padding-t-84 {
   padding-top: 84px; }
 
-.fm-container .padding-t-85 {
+.file-manager-container .padding-t-85 {
   padding-top: 85px; }
 
-.fm-container .padding-t-86 {
+.file-manager-container .padding-t-86 {
   padding-top: 86px; }
 
-.fm-container .padding-t-87 {
+.file-manager-container .padding-t-87 {
   padding-top: 87px; }
 
-.fm-container .padding-t-88 {
+.file-manager-container .padding-t-88 {
   padding-top: 88px; }
 
-.fm-container .padding-t-89 {
+.file-manager-container .padding-t-89 {
   padding-top: 89px; }
 
-.fm-container .padding-t-90 {
+.file-manager-container .padding-t-90 {
   padding-top: 90px; }
 
-.fm-container .padding-t-91 {
+.file-manager-container .padding-t-91 {
   padding-top: 91px; }
 
-.fm-container .padding-t-92 {
+.file-manager-container .padding-t-92 {
   padding-top: 92px; }
 
-.fm-container .padding-t-93 {
+.file-manager-container .padding-t-93 {
   padding-top: 93px; }
 
-.fm-container .padding-t-94 {
+.file-manager-container .padding-t-94 {
   padding-top: 94px; }
 
-.fm-container .padding-t-95 {
+.file-manager-container .padding-t-95 {
   padding-top: 95px; }
 
-.fm-container .padding-t-96 {
+.file-manager-container .padding-t-96 {
   padding-top: 96px; }
 
-.fm-container .padding-t-97 {
+.file-manager-container .padding-t-97 {
   padding-top: 97px; }
 
-.fm-container .padding-t-98 {
+.file-manager-container .padding-t-98 {
   padding-top: 98px; }
 
-.fm-container .padding-t-99 {
+.file-manager-container .padding-t-99 {
   padding-top: 99px; }
 
-.fm-container .padding-t-100 {
+.file-manager-container .padding-t-100 {
   padding-top: 100px; }
 
-.fm-container .padding-b-5 {
+.file-manager-container .padding-b-5 {
   padding-bottom: 5px; }
 
-.fm-container .padding-b-6 {
+.file-manager-container .padding-b-6 {
   padding-bottom: 6px; }
 
-.fm-container .padding-b-7 {
+.file-manager-container .padding-b-7 {
   padding-bottom: 7px; }
 
-.fm-container .padding-b-8 {
+.file-manager-container .padding-b-8 {
   padding-bottom: 8px; }
 
-.fm-container .padding-b-9 {
+.file-manager-container .padding-b-9 {
   padding-bottom: 9px; }
 
-.fm-container .padding-b-10 {
+.file-manager-container .padding-b-10 {
   padding-bottom: 10px; }
 
-.fm-container .padding-b-11 {
+.file-manager-container .padding-b-11 {
   padding-bottom: 11px; }
 
-.fm-container .padding-b-12 {
+.file-manager-container .padding-b-12 {
   padding-bottom: 12px; }
 
-.fm-container .padding-b-13 {
+.file-manager-container .padding-b-13 {
   padding-bottom: 13px; }
 
-.fm-container .padding-b-14 {
+.file-manager-container .padding-b-14 {
   padding-bottom: 14px; }
 
-.fm-container .padding-b-15 {
+.file-manager-container .padding-b-15 {
   padding-bottom: 15px; }
 
-.fm-container .padding-b-16 {
+.file-manager-container .padding-b-16 {
   padding-bottom: 16px; }
 
-.fm-container .padding-b-17 {
+.file-manager-container .padding-b-17 {
   padding-bottom: 17px; }
 
-.fm-container .padding-b-18 {
+.file-manager-container .padding-b-18 {
   padding-bottom: 18px; }
 
-.fm-container .padding-b-19 {
+.file-manager-container .padding-b-19 {
   padding-bottom: 19px; }
 
-.fm-container .padding-b-20 {
+.file-manager-container .padding-b-20 {
   padding-bottom: 20px; }
 
-.fm-container .padding-b-21 {
+.file-manager-container .padding-b-21 {
   padding-bottom: 21px; }
 
-.fm-container .padding-b-22 {
+.file-manager-container .padding-b-22 {
   padding-bottom: 22px; }
 
-.fm-container .padding-b-23 {
+.file-manager-container .padding-b-23 {
   padding-bottom: 23px; }
 
-.fm-container .padding-b-24 {
+.file-manager-container .padding-b-24 {
   padding-bottom: 24px; }
 
-.fm-container .padding-b-25 {
+.file-manager-container .padding-b-25 {
   padding-bottom: 25px; }
 
-.fm-container .padding-b-26 {
+.file-manager-container .padding-b-26 {
   padding-bottom: 26px; }
 
-.fm-container .padding-b-27 {
+.file-manager-container .padding-b-27 {
   padding-bottom: 27px; }
 
-.fm-container .padding-b-28 {
+.file-manager-container .padding-b-28 {
   padding-bottom: 28px; }
 
-.fm-container .padding-b-29 {
+.file-manager-container .padding-b-29 {
   padding-bottom: 29px; }
 
-.fm-container .padding-b-30 {
+.file-manager-container .padding-b-30 {
   padding-bottom: 30px; }
 
-.fm-container .padding-b-31 {
+.file-manager-container .padding-b-31 {
   padding-bottom: 31px; }
 
-.fm-container .padding-b-32 {
+.file-manager-container .padding-b-32 {
   padding-bottom: 32px; }
 
-.fm-container .padding-b-33 {
+.file-manager-container .padding-b-33 {
   padding-bottom: 33px; }
 
-.fm-container .padding-b-34 {
+.file-manager-container .padding-b-34 {
   padding-bottom: 34px; }
 
-.fm-container .padding-b-35 {
+.file-manager-container .padding-b-35 {
   padding-bottom: 35px; }
 
-.fm-container .padding-b-36 {
+.file-manager-container .padding-b-36 {
   padding-bottom: 36px; }
 
-.fm-container .padding-b-37 {
+.file-manager-container .padding-b-37 {
   padding-bottom: 37px; }
 
-.fm-container .padding-b-38 {
+.file-manager-container .padding-b-38 {
   padding-bottom: 38px; }
 
-.fm-container .padding-b-39 {
+.file-manager-container .padding-b-39 {
   padding-bottom: 39px; }
 
-.fm-container .padding-b-40 {
+.file-manager-container .padding-b-40 {
   padding-bottom: 40px; }
 
-.fm-container .padding-b-41 {
+.file-manager-container .padding-b-41 {
   padding-bottom: 41px; }
 
-.fm-container .padding-b-42 {
+.file-manager-container .padding-b-42 {
   padding-bottom: 42px; }
 
-.fm-container .padding-b-43 {
+.file-manager-container .padding-b-43 {
   padding-bottom: 43px; }
 
-.fm-container .padding-b-44 {
+.file-manager-container .padding-b-44 {
   padding-bottom: 44px; }
 
-.fm-container .padding-b-45 {
+.file-manager-container .padding-b-45 {
   padding-bottom: 45px; }
 
-.fm-container .padding-b-46 {
+.file-manager-container .padding-b-46 {
   padding-bottom: 46px; }
 
-.fm-container .padding-b-47 {
+.file-manager-container .padding-b-47 {
   padding-bottom: 47px; }
 
-.fm-container .padding-b-48 {
+.file-manager-container .padding-b-48 {
   padding-bottom: 48px; }
 
-.fm-container .padding-b-49 {
+.file-manager-container .padding-b-49 {
   padding-bottom: 49px; }
 
-.fm-container .padding-b-50 {
+.file-manager-container .padding-b-50 {
   padding-bottom: 50px; }
 
-.fm-container .padding-b-51 {
+.file-manager-container .padding-b-51 {
   padding-bottom: 51px; }
 
-.fm-container .padding-b-52 {
+.file-manager-container .padding-b-52 {
   padding-bottom: 52px; }
 
-.fm-container .padding-b-53 {
+.file-manager-container .padding-b-53 {
   padding-bottom: 53px; }
 
-.fm-container .padding-b-54 {
+.file-manager-container .padding-b-54 {
   padding-bottom: 54px; }
 
-.fm-container .padding-b-55 {
+.file-manager-container .padding-b-55 {
   padding-bottom: 55px; }
 
-.fm-container .padding-b-56 {
+.file-manager-container .padding-b-56 {
   padding-bottom: 56px; }
 
-.fm-container .padding-b-57 {
+.file-manager-container .padding-b-57 {
   padding-bottom: 57px; }
 
-.fm-container .padding-b-58 {
+.file-manager-container .padding-b-58 {
   padding-bottom: 58px; }
 
-.fm-container .padding-b-59 {
+.file-manager-container .padding-b-59 {
   padding-bottom: 59px; }
 
-.fm-container .padding-b-60 {
+.file-manager-container .padding-b-60 {
   padding-bottom: 60px; }
 
-.fm-container .padding-b-61 {
+.file-manager-container .padding-b-61 {
   padding-bottom: 61px; }
 
-.fm-container .padding-b-62 {
+.file-manager-container .padding-b-62 {
   padding-bottom: 62px; }
 
-.fm-container .padding-b-63 {
+.file-manager-container .padding-b-63 {
   padding-bottom: 63px; }
 
-.fm-container .padding-b-64 {
+.file-manager-container .padding-b-64 {
   padding-bottom: 64px; }
 
-.fm-container .padding-b-65 {
+.file-manager-container .padding-b-65 {
   padding-bottom: 65px; }
 
-.fm-container .padding-b-66 {
+.file-manager-container .padding-b-66 {
   padding-bottom: 66px; }
 
-.fm-container .padding-b-67 {
+.file-manager-container .padding-b-67 {
   padding-bottom: 67px; }
 
-.fm-container .padding-b-68 {
+.file-manager-container .padding-b-68 {
   padding-bottom: 68px; }
 
-.fm-container .padding-b-69 {
+.file-manager-container .padding-b-69 {
   padding-bottom: 69px; }
 
-.fm-container .padding-b-70 {
+.file-manager-container .padding-b-70 {
   padding-bottom: 70px; }
 
-.fm-container .padding-b-71 {
+.file-manager-container .padding-b-71 {
   padding-bottom: 71px; }
 
-.fm-container .padding-b-72 {
+.file-manager-container .padding-b-72 {
   padding-bottom: 72px; }
 
-.fm-container .padding-b-73 {
+.file-manager-container .padding-b-73 {
   padding-bottom: 73px; }
 
-.fm-container .padding-b-74 {
+.file-manager-container .padding-b-74 {
   padding-bottom: 74px; }
 
-.fm-container .padding-b-75 {
+.file-manager-container .padding-b-75 {
   padding-bottom: 75px; }
 
-.fm-container .padding-b-76 {
+.file-manager-container .padding-b-76 {
   padding-bottom: 76px; }
 
-.fm-container .padding-b-77 {
+.file-manager-container .padding-b-77 {
   padding-bottom: 77px; }
 
-.fm-container .padding-b-78 {
+.file-manager-container .padding-b-78 {
   padding-bottom: 78px; }
 
-.fm-container .padding-b-79 {
+.file-manager-container .padding-b-79 {
   padding-bottom: 79px; }
 
-.fm-container .padding-b-80 {
+.file-manager-container .padding-b-80 {
   padding-bottom: 80px; }
 
-.fm-container .padding-b-81 {
+.file-manager-container .padding-b-81 {
   padding-bottom: 81px; }
 
-.fm-container .padding-b-82 {
+.file-manager-container .padding-b-82 {
   padding-bottom: 82px; }
 
-.fm-container .padding-b-83 {
+.file-manager-container .padding-b-83 {
   padding-bottom: 83px; }
 
-.fm-container .padding-b-84 {
+.file-manager-container .padding-b-84 {
   padding-bottom: 84px; }
 
-.fm-container .padding-b-85 {
+.file-manager-container .padding-b-85 {
   padding-bottom: 85px; }
 
-.fm-container .padding-b-86 {
+.file-manager-container .padding-b-86 {
   padding-bottom: 86px; }
 
-.fm-container .padding-b-87 {
+.file-manager-container .padding-b-87 {
   padding-bottom: 87px; }
 
-.fm-container .padding-b-88 {
+.file-manager-container .padding-b-88 {
   padding-bottom: 88px; }
 
-.fm-container .padding-b-89 {
+.file-manager-container .padding-b-89 {
   padding-bottom: 89px; }
 
-.fm-container .padding-b-90 {
+.file-manager-container .padding-b-90 {
   padding-bottom: 90px; }
 
-.fm-container .padding-b-91 {
+.file-manager-container .padding-b-91 {
   padding-bottom: 91px; }
 
-.fm-container .padding-b-92 {
+.file-manager-container .padding-b-92 {
   padding-bottom: 92px; }
 
-.fm-container .padding-b-93 {
+.file-manager-container .padding-b-93 {
   padding-bottom: 93px; }
 
-.fm-container .padding-b-94 {
+.file-manager-container .padding-b-94 {
   padding-bottom: 94px; }
 
-.fm-container .padding-b-95 {
+.file-manager-container .padding-b-95 {
   padding-bottom: 95px; }
 
-.fm-container .padding-b-96 {
+.file-manager-container .padding-b-96 {
   padding-bottom: 96px; }
 
-.fm-container .padding-b-97 {
+.file-manager-container .padding-b-97 {
   padding-bottom: 97px; }
 
-.fm-container .padding-b-98 {
+.file-manager-container .padding-b-98 {
   padding-bottom: 98px; }
 
-.fm-container .padding-b-99 {
+.file-manager-container .padding-b-99 {
   padding-bottom: 99px; }
 
-.fm-container .padding-b-100 {
+.file-manager-container .padding-b-100 {
   padding-bottom: 100px; }
 
-.fm-container .margin-l-5 {
+.file-manager-container .margin-l-5 {
   margin-left: 5px; }
 
-.fm-container .margin-l-6 {
+.file-manager-container .margin-l-6 {
   margin-left: 6px; }
 
-.fm-container .margin-l-7 {
+.file-manager-container .margin-l-7 {
   margin-left: 7px; }
 
-.fm-container .margin-l-8 {
+.file-manager-container .margin-l-8 {
   margin-left: 8px; }
 
-.fm-container .margin-l-9 {
+.file-manager-container .margin-l-9 {
   margin-left: 9px; }
 
-.fm-container .margin-l-10 {
+.file-manager-container .margin-l-10 {
   margin-left: 10px; }
 
-.fm-container .margin-l-11 {
+.file-manager-container .margin-l-11 {
   margin-left: 11px; }
 
-.fm-container .margin-l-12 {
+.file-manager-container .margin-l-12 {
   margin-left: 12px; }
 
-.fm-container .margin-l-13 {
+.file-manager-container .margin-l-13 {
   margin-left: 13px; }
 
-.fm-container .margin-l-14 {
+.file-manager-container .margin-l-14 {
   margin-left: 14px; }
 
-.fm-container .margin-l-15 {
+.file-manager-container .margin-l-15 {
   margin-left: 15px; }
 
-.fm-container .margin-l-16 {
+.file-manager-container .margin-l-16 {
   margin-left: 16px; }
 
-.fm-container .margin-l-17 {
+.file-manager-container .margin-l-17 {
   margin-left: 17px; }
 
-.fm-container .margin-l-18 {
+.file-manager-container .margin-l-18 {
   margin-left: 18px; }
 
-.fm-container .margin-l-19 {
+.file-manager-container .margin-l-19 {
   margin-left: 19px; }
 
-.fm-container .margin-l-20 {
+.file-manager-container .margin-l-20 {
   margin-left: 20px; }
 
-.fm-container .margin-l-21 {
+.file-manager-container .margin-l-21 {
   margin-left: 21px; }
 
-.fm-container .margin-l-22 {
+.file-manager-container .margin-l-22 {
   margin-left: 22px; }
 
-.fm-container .margin-l-23 {
+.file-manager-container .margin-l-23 {
   margin-left: 23px; }
 
-.fm-container .margin-l-24 {
+.file-manager-container .margin-l-24 {
   margin-left: 24px; }
 
-.fm-container .margin-l-25 {
+.file-manager-container .margin-l-25 {
   margin-left: 25px; }
 
-.fm-container .margin-l-26 {
+.file-manager-container .margin-l-26 {
   margin-left: 26px; }
 
-.fm-container .margin-l-27 {
+.file-manager-container .margin-l-27 {
   margin-left: 27px; }
 
-.fm-container .margin-l-28 {
+.file-manager-container .margin-l-28 {
   margin-left: 28px; }
 
-.fm-container .margin-l-29 {
+.file-manager-container .margin-l-29 {
   margin-left: 29px; }
 
-.fm-container .margin-l-30 {
+.file-manager-container .margin-l-30 {
   margin-left: 30px; }
 
-.fm-container .margin-l-31 {
+.file-manager-container .margin-l-31 {
   margin-left: 31px; }
 
-.fm-container .margin-l-32 {
+.file-manager-container .margin-l-32 {
   margin-left: 32px; }
 
-.fm-container .margin-l-33 {
+.file-manager-container .margin-l-33 {
   margin-left: 33px; }
 
-.fm-container .margin-l-34 {
+.file-manager-container .margin-l-34 {
   margin-left: 34px; }
 
-.fm-container .margin-l-35 {
+.file-manager-container .margin-l-35 {
   margin-left: 35px; }
 
-.fm-container .margin-l-36 {
+.file-manager-container .margin-l-36 {
   margin-left: 36px; }
 
-.fm-container .margin-l-37 {
+.file-manager-container .margin-l-37 {
   margin-left: 37px; }
 
-.fm-container .margin-l-38 {
+.file-manager-container .margin-l-38 {
   margin-left: 38px; }
 
-.fm-container .margin-l-39 {
+.file-manager-container .margin-l-39 {
   margin-left: 39px; }
 
-.fm-container .margin-l-40 {
+.file-manager-container .margin-l-40 {
   margin-left: 40px; }
 
-.fm-container .margin-l-41 {
+.file-manager-container .margin-l-41 {
   margin-left: 41px; }
 
-.fm-container .margin-l-42 {
+.file-manager-container .margin-l-42 {
   margin-left: 42px; }
 
-.fm-container .margin-l-43 {
+.file-manager-container .margin-l-43 {
   margin-left: 43px; }
 
-.fm-container .margin-l-44 {
+.file-manager-container .margin-l-44 {
   margin-left: 44px; }
 
-.fm-container .margin-l-45 {
+.file-manager-container .margin-l-45 {
   margin-left: 45px; }
 
-.fm-container .margin-l-46 {
+.file-manager-container .margin-l-46 {
   margin-left: 46px; }
 
-.fm-container .margin-l-47 {
+.file-manager-container .margin-l-47 {
   margin-left: 47px; }
 
-.fm-container .margin-l-48 {
+.file-manager-container .margin-l-48 {
   margin-left: 48px; }
 
-.fm-container .margin-l-49 {
+.file-manager-container .margin-l-49 {
   margin-left: 49px; }
 
-.fm-container .margin-l-50 {
+.file-manager-container .margin-l-50 {
   margin-left: 50px; }
 
-.fm-container .margin-l-51 {
+.file-manager-container .margin-l-51 {
   margin-left: 51px; }
 
-.fm-container .margin-l-52 {
+.file-manager-container .margin-l-52 {
   margin-left: 52px; }
 
-.fm-container .margin-l-53 {
+.file-manager-container .margin-l-53 {
   margin-left: 53px; }
 
-.fm-container .margin-l-54 {
+.file-manager-container .margin-l-54 {
   margin-left: 54px; }
 
-.fm-container .margin-l-55 {
+.file-manager-container .margin-l-55 {
   margin-left: 55px; }
 
-.fm-container .margin-l-56 {
+.file-manager-container .margin-l-56 {
   margin-left: 56px; }
 
-.fm-container .margin-l-57 {
+.file-manager-container .margin-l-57 {
   margin-left: 57px; }
 
-.fm-container .margin-l-58 {
+.file-manager-container .margin-l-58 {
   margin-left: 58px; }
 
-.fm-container .margin-l-59 {
+.file-manager-container .margin-l-59 {
   margin-left: 59px; }
 
-.fm-container .margin-l-60 {
+.file-manager-container .margin-l-60 {
   margin-left: 60px; }
 
-.fm-container .margin-l-61 {
+.file-manager-container .margin-l-61 {
   margin-left: 61px; }
 
-.fm-container .margin-l-62 {
+.file-manager-container .margin-l-62 {
   margin-left: 62px; }
 
-.fm-container .margin-l-63 {
+.file-manager-container .margin-l-63 {
   margin-left: 63px; }
 
-.fm-container .margin-l-64 {
+.file-manager-container .margin-l-64 {
   margin-left: 64px; }
 
-.fm-container .margin-l-65 {
+.file-manager-container .margin-l-65 {
   margin-left: 65px; }
 
-.fm-container .margin-l-66 {
+.file-manager-container .margin-l-66 {
   margin-left: 66px; }
 
-.fm-container .margin-l-67 {
+.file-manager-container .margin-l-67 {
   margin-left: 67px; }
 
-.fm-container .margin-l-68 {
+.file-manager-container .margin-l-68 {
   margin-left: 68px; }
 
-.fm-container .margin-l-69 {
+.file-manager-container .margin-l-69 {
   margin-left: 69px; }
 
-.fm-container .margin-l-70 {
+.file-manager-container .margin-l-70 {
   margin-left: 70px; }
 
-.fm-container .margin-l-71 {
+.file-manager-container .margin-l-71 {
   margin-left: 71px; }
 
-.fm-container .margin-l-72 {
+.file-manager-container .margin-l-72 {
   margin-left: 72px; }
 
-.fm-container .margin-l-73 {
+.file-manager-container .margin-l-73 {
   margin-left: 73px; }
 
-.fm-container .margin-l-74 {
+.file-manager-container .margin-l-74 {
   margin-left: 74px; }
 
-.fm-container .margin-l-75 {
+.file-manager-container .margin-l-75 {
   margin-left: 75px; }
 
-.fm-container .margin-l-76 {
+.file-manager-container .margin-l-76 {
   margin-left: 76px; }
 
-.fm-container .margin-l-77 {
+.file-manager-container .margin-l-77 {
   margin-left: 77px; }
 
-.fm-container .margin-l-78 {
+.file-manager-container .margin-l-78 {
   margin-left: 78px; }
 
-.fm-container .margin-l-79 {
+.file-manager-container .margin-l-79 {
   margin-left: 79px; }
 
-.fm-container .margin-l-80 {
+.file-manager-container .margin-l-80 {
   margin-left: 80px; }
 
-.fm-container .margin-l-81 {
+.file-manager-container .margin-l-81 {
   margin-left: 81px; }
 
-.fm-container .margin-l-82 {
+.file-manager-container .margin-l-82 {
   margin-left: 82px; }
 
-.fm-container .margin-l-83 {
+.file-manager-container .margin-l-83 {
   margin-left: 83px; }
 
-.fm-container .margin-l-84 {
+.file-manager-container .margin-l-84 {
   margin-left: 84px; }
 
-.fm-container .margin-l-85 {
+.file-manager-container .margin-l-85 {
   margin-left: 85px; }
 
-.fm-container .margin-l-86 {
+.file-manager-container .margin-l-86 {
   margin-left: 86px; }
 
-.fm-container .margin-l-87 {
+.file-manager-container .margin-l-87 {
   margin-left: 87px; }
 
-.fm-container .margin-l-88 {
+.file-manager-container .margin-l-88 {
   margin-left: 88px; }
 
-.fm-container .margin-l-89 {
+.file-manager-container .margin-l-89 {
   margin-left: 89px; }
 
-.fm-container .margin-l-90 {
+.file-manager-container .margin-l-90 {
   margin-left: 90px; }
 
-.fm-container .margin-l-91 {
+.file-manager-container .margin-l-91 {
   margin-left: 91px; }
 
-.fm-container .margin-l-92 {
+.file-manager-container .margin-l-92 {
   margin-left: 92px; }
 
-.fm-container .margin-l-93 {
+.file-manager-container .margin-l-93 {
   margin-left: 93px; }
 
-.fm-container .margin-l-94 {
+.file-manager-container .margin-l-94 {
   margin-left: 94px; }
 
-.fm-container .margin-l-95 {
+.file-manager-container .margin-l-95 {
   margin-left: 95px; }
 
-.fm-container .margin-l-96 {
+.file-manager-container .margin-l-96 {
   margin-left: 96px; }
 
-.fm-container .margin-l-97 {
+.file-manager-container .margin-l-97 {
   margin-left: 97px; }
 
-.fm-container .margin-l-98 {
+.file-manager-container .margin-l-98 {
   margin-left: 98px; }
 
-.fm-container .margin-l-99 {
+.file-manager-container .margin-l-99 {
   margin-left: 99px; }
 
-.fm-container .margin-l-100 {
+.file-manager-container .margin-l-100 {
   margin-left: 100px; }
 
-.fm-container .margin-r-5 {
+.file-manager-container .margin-r-5 {
   margin-right: 5px; }
 
-.fm-container .margin-r-6 {
+.file-manager-container .margin-r-6 {
   margin-right: 6px; }
 
-.fm-container .margin-r-7 {
+.file-manager-container .margin-r-7 {
   margin-right: 7px; }
 
-.fm-container .margin-r-8 {
+.file-manager-container .margin-r-8 {
   margin-right: 8px; }
 
-.fm-container .margin-r-9 {
+.file-manager-container .margin-r-9 {
   margin-right: 9px; }
 
-.fm-container .margin-r-10 {
+.file-manager-container .margin-r-10 {
   margin-right: 10px; }
 
-.fm-container .margin-r-11 {
+.file-manager-container .margin-r-11 {
   margin-right: 11px; }
 
-.fm-container .margin-r-12 {
+.file-manager-container .margin-r-12 {
   margin-right: 12px; }
 
-.fm-container .margin-r-13 {
+.file-manager-container .margin-r-13 {
   margin-right: 13px; }
 
-.fm-container .margin-r-14 {
+.file-manager-container .margin-r-14 {
   margin-right: 14px; }
 
-.fm-container .margin-r-15 {
+.file-manager-container .margin-r-15 {
   margin-right: 15px; }
 
-.fm-container .margin-r-16 {
+.file-manager-container .margin-r-16 {
   margin-right: 16px; }
 
-.fm-container .margin-r-17 {
+.file-manager-container .margin-r-17 {
   margin-right: 17px; }
 
-.fm-container .margin-r-18 {
+.file-manager-container .margin-r-18 {
   margin-right: 18px; }
 
-.fm-container .margin-r-19 {
+.file-manager-container .margin-r-19 {
   margin-right: 19px; }
 
-.fm-container .margin-r-20 {
+.file-manager-container .margin-r-20 {
   margin-right: 20px; }
 
-.fm-container .margin-r-21 {
+.file-manager-container .margin-r-21 {
   margin-right: 21px; }
 
-.fm-container .margin-r-22 {
+.file-manager-container .margin-r-22 {
   margin-right: 22px; }
 
-.fm-container .margin-r-23 {
+.file-manager-container .margin-r-23 {
   margin-right: 23px; }
 
-.fm-container .margin-r-24 {
+.file-manager-container .margin-r-24 {
   margin-right: 24px; }
 
-.fm-container .margin-r-25 {
+.file-manager-container .margin-r-25 {
   margin-right: 25px; }
 
-.fm-container .margin-r-26 {
+.file-manager-container .margin-r-26 {
   margin-right: 26px; }
 
-.fm-container .margin-r-27 {
+.file-manager-container .margin-r-27 {
   margin-right: 27px; }
 
-.fm-container .margin-r-28 {
+.file-manager-container .margin-r-28 {
   margin-right: 28px; }
 
-.fm-container .margin-r-29 {
+.file-manager-container .margin-r-29 {
   margin-right: 29px; }
 
-.fm-container .margin-r-30 {
+.file-manager-container .margin-r-30 {
   margin-right: 30px; }
 
-.fm-container .margin-r-31 {
+.file-manager-container .margin-r-31 {
   margin-right: 31px; }
 
-.fm-container .margin-r-32 {
+.file-manager-container .margin-r-32 {
   margin-right: 32px; }
 
-.fm-container .margin-r-33 {
+.file-manager-container .margin-r-33 {
   margin-right: 33px; }
 
-.fm-container .margin-r-34 {
+.file-manager-container .margin-r-34 {
   margin-right: 34px; }
 
-.fm-container .margin-r-35 {
+.file-manager-container .margin-r-35 {
   margin-right: 35px; }
 
-.fm-container .margin-r-36 {
+.file-manager-container .margin-r-36 {
   margin-right: 36px; }
 
-.fm-container .margin-r-37 {
+.file-manager-container .margin-r-37 {
   margin-right: 37px; }
 
-.fm-container .margin-r-38 {
+.file-manager-container .margin-r-38 {
   margin-right: 38px; }
 
-.fm-container .margin-r-39 {
+.file-manager-container .margin-r-39 {
   margin-right: 39px; }
 
-.fm-container .margin-r-40 {
+.file-manager-container .margin-r-40 {
   margin-right: 40px; }
 
-.fm-container .margin-r-41 {
+.file-manager-container .margin-r-41 {
   margin-right: 41px; }
 
-.fm-container .margin-r-42 {
+.file-manager-container .margin-r-42 {
   margin-right: 42px; }
 
-.fm-container .margin-r-43 {
+.file-manager-container .margin-r-43 {
   margin-right: 43px; }
 
-.fm-container .margin-r-44 {
+.file-manager-container .margin-r-44 {
   margin-right: 44px; }
 
-.fm-container .margin-r-45 {
+.file-manager-container .margin-r-45 {
   margin-right: 45px; }
 
-.fm-container .margin-r-46 {
+.file-manager-container .margin-r-46 {
   margin-right: 46px; }
 
-.fm-container .margin-r-47 {
+.file-manager-container .margin-r-47 {
   margin-right: 47px; }
 
-.fm-container .margin-r-48 {
+.file-manager-container .margin-r-48 {
   margin-right: 48px; }
 
-.fm-container .margin-r-49 {
+.file-manager-container .margin-r-49 {
   margin-right: 49px; }
 
-.fm-container .margin-r-50 {
+.file-manager-container .margin-r-50 {
   margin-right: 50px; }
 
-.fm-container .margin-r-51 {
+.file-manager-container .margin-r-51 {
   margin-right: 51px; }
 
-.fm-container .margin-r-52 {
+.file-manager-container .margin-r-52 {
   margin-right: 52px; }
 
-.fm-container .margin-r-53 {
+.file-manager-container .margin-r-53 {
   margin-right: 53px; }
 
-.fm-container .margin-r-54 {
+.file-manager-container .margin-r-54 {
   margin-right: 54px; }
 
-.fm-container .margin-r-55 {
+.file-manager-container .margin-r-55 {
   margin-right: 55px; }
 
-.fm-container .margin-r-56 {
+.file-manager-container .margin-r-56 {
   margin-right: 56px; }
 
-.fm-container .margin-r-57 {
+.file-manager-container .margin-r-57 {
   margin-right: 57px; }
 
-.fm-container .margin-r-58 {
+.file-manager-container .margin-r-58 {
   margin-right: 58px; }
 
-.fm-container .margin-r-59 {
+.file-manager-container .margin-r-59 {
   margin-right: 59px; }
 
-.fm-container .margin-r-60 {
+.file-manager-container .margin-r-60 {
   margin-right: 60px; }
 
-.fm-container .margin-r-61 {
+.file-manager-container .margin-r-61 {
   margin-right: 61px; }
 
-.fm-container .margin-r-62 {
+.file-manager-container .margin-r-62 {
   margin-right: 62px; }
 
-.fm-container .margin-r-63 {
+.file-manager-container .margin-r-63 {
   margin-right: 63px; }
 
-.fm-container .margin-r-64 {
+.file-manager-container .margin-r-64 {
   margin-right: 64px; }
 
-.fm-container .margin-r-65 {
+.file-manager-container .margin-r-65 {
   margin-right: 65px; }
 
-.fm-container .margin-r-66 {
+.file-manager-container .margin-r-66 {
   margin-right: 66px; }
 
-.fm-container .margin-r-67 {
+.file-manager-container .margin-r-67 {
   margin-right: 67px; }
 
-.fm-container .margin-r-68 {
+.file-manager-container .margin-r-68 {
   margin-right: 68px; }
 
-.fm-container .margin-r-69 {
+.file-manager-container .margin-r-69 {
   margin-right: 69px; }
 
-.fm-container .margin-r-70 {
+.file-manager-container .margin-r-70 {
   margin-right: 70px; }
 
-.fm-container .margin-r-71 {
+.file-manager-container .margin-r-71 {
   margin-right: 71px; }
 
-.fm-container .margin-r-72 {
+.file-manager-container .margin-r-72 {
   margin-right: 72px; }
 
-.fm-container .margin-r-73 {
+.file-manager-container .margin-r-73 {
   margin-right: 73px; }
 
-.fm-container .margin-r-74 {
+.file-manager-container .margin-r-74 {
   margin-right: 74px; }
 
-.fm-container .margin-r-75 {
+.file-manager-container .margin-r-75 {
   margin-right: 75px; }
 
-.fm-container .margin-r-76 {
+.file-manager-container .margin-r-76 {
   margin-right: 76px; }
 
-.fm-container .margin-r-77 {
+.file-manager-container .margin-r-77 {
   margin-right: 77px; }
 
-.fm-container .margin-r-78 {
+.file-manager-container .margin-r-78 {
   margin-right: 78px; }
 
-.fm-container .margin-r-79 {
+.file-manager-container .margin-r-79 {
   margin-right: 79px; }
 
-.fm-container .margin-r-80 {
+.file-manager-container .margin-r-80 {
   margin-right: 80px; }
 
-.fm-container .margin-r-81 {
+.file-manager-container .margin-r-81 {
   margin-right: 81px; }
 
-.fm-container .margin-r-82 {
+.file-manager-container .margin-r-82 {
   margin-right: 82px; }
 
-.fm-container .margin-r-83 {
+.file-manager-container .margin-r-83 {
   margin-right: 83px; }
 
-.fm-container .margin-r-84 {
+.file-manager-container .margin-r-84 {
   margin-right: 84px; }
 
-.fm-container .margin-r-85 {
+.file-manager-container .margin-r-85 {
   margin-right: 85px; }
 
-.fm-container .margin-r-86 {
+.file-manager-container .margin-r-86 {
   margin-right: 86px; }
 
-.fm-container .margin-r-87 {
+.file-manager-container .margin-r-87 {
   margin-right: 87px; }
 
-.fm-container .margin-r-88 {
+.file-manager-container .margin-r-88 {
   margin-right: 88px; }
 
-.fm-container .margin-r-89 {
+.file-manager-container .margin-r-89 {
   margin-right: 89px; }
 
-.fm-container .margin-r-90 {
+.file-manager-container .margin-r-90 {
   margin-right: 90px; }
 
-.fm-container .margin-r-91 {
+.file-manager-container .margin-r-91 {
   margin-right: 91px; }
 
-.fm-container .margin-r-92 {
+.file-manager-container .margin-r-92 {
   margin-right: 92px; }
 
-.fm-container .margin-r-93 {
+.file-manager-container .margin-r-93 {
   margin-right: 93px; }
 
-.fm-container .margin-r-94 {
+.file-manager-container .margin-r-94 {
   margin-right: 94px; }
 
-.fm-container .margin-r-95 {
+.file-manager-container .margin-r-95 {
   margin-right: 95px; }
 
-.fm-container .margin-r-96 {
+.file-manager-container .margin-r-96 {
   margin-right: 96px; }
 
-.fm-container .margin-r-97 {
+.file-manager-container .margin-r-97 {
   margin-right: 97px; }
 
-.fm-container .margin-r-98 {
+.file-manager-container .margin-r-98 {
   margin-right: 98px; }
 
-.fm-container .margin-r-99 {
+.file-manager-container .margin-r-99 {
   margin-right: 99px; }
 
-.fm-container .margin-r-100 {
+.file-manager-container .margin-r-100 {
   margin-right: 100px; }
 
-.fm-container .margin-t-5 {
+.file-manager-container .margin-t-5 {
   margin-top: 5px; }
 
-.fm-container .margin-t-6 {
+.file-manager-container .margin-t-6 {
   margin-top: 6px; }
 
-.fm-container .margin-t-7 {
+.file-manager-container .margin-t-7 {
   margin-top: 7px; }
 
-.fm-container .margin-t-8 {
+.file-manager-container .margin-t-8 {
   margin-top: 8px; }
 
-.fm-container .margin-t-9 {
+.file-manager-container .margin-t-9 {
   margin-top: 9px; }
 
-.fm-container .margin-t-10 {
+.file-manager-container .margin-t-10 {
   margin-top: 10px; }
 
-.fm-container .margin-t-11 {
+.file-manager-container .margin-t-11 {
   margin-top: 11px; }
 
-.fm-container .margin-t-12 {
+.file-manager-container .margin-t-12 {
   margin-top: 12px; }
 
-.fm-container .margin-t-13 {
+.file-manager-container .margin-t-13 {
   margin-top: 13px; }
 
-.fm-container .margin-t-14 {
+.file-manager-container .margin-t-14 {
   margin-top: 14px; }
 
-.fm-container .margin-t-15 {
+.file-manager-container .margin-t-15 {
   margin-top: 15px; }
 
-.fm-container .margin-t-16 {
+.file-manager-container .margin-t-16 {
   margin-top: 16px; }
 
-.fm-container .margin-t-17 {
+.file-manager-container .margin-t-17 {
   margin-top: 17px; }
 
-.fm-container .margin-t-18 {
+.file-manager-container .margin-t-18 {
   margin-top: 18px; }
 
-.fm-container .margin-t-19 {
+.file-manager-container .margin-t-19 {
   margin-top: 19px; }
 
-.fm-container .margin-t-20 {
+.file-manager-container .margin-t-20 {
   margin-top: 20px; }
 
-.fm-container .margin-t-21 {
+.file-manager-container .margin-t-21 {
   margin-top: 21px; }
 
-.fm-container .margin-t-22 {
+.file-manager-container .margin-t-22 {
   margin-top: 22px; }
 
-.fm-container .margin-t-23 {
+.file-manager-container .margin-t-23 {
   margin-top: 23px; }
 
-.fm-container .margin-t-24 {
+.file-manager-container .margin-t-24 {
   margin-top: 24px; }
 
-.fm-container .margin-t-25 {
+.file-manager-container .margin-t-25 {
   margin-top: 25px; }
 
-.fm-container .margin-t-26 {
+.file-manager-container .margin-t-26 {
   margin-top: 26px; }
 
-.fm-container .margin-t-27 {
+.file-manager-container .margin-t-27 {
   margin-top: 27px; }
 
-.fm-container .margin-t-28 {
+.file-manager-container .margin-t-28 {
   margin-top: 28px; }
 
-.fm-container .margin-t-29 {
+.file-manager-container .margin-t-29 {
   margin-top: 29px; }
 
-.fm-container .margin-t-30 {
+.file-manager-container .margin-t-30 {
   margin-top: 30px; }
 
-.fm-container .margin-t-31 {
+.file-manager-container .margin-t-31 {
   margin-top: 31px; }
 
-.fm-container .margin-t-32 {
+.file-manager-container .margin-t-32 {
   margin-top: 32px; }
 
-.fm-container .margin-t-33 {
+.file-manager-container .margin-t-33 {
   margin-top: 33px; }
 
-.fm-container .margin-t-34 {
+.file-manager-container .margin-t-34 {
   margin-top: 34px; }
 
-.fm-container .margin-t-35 {
+.file-manager-container .margin-t-35 {
   margin-top: 35px; }
 
-.fm-container .margin-t-36 {
+.file-manager-container .margin-t-36 {
   margin-top: 36px; }
 
-.fm-container .margin-t-37 {
+.file-manager-container .margin-t-37 {
   margin-top: 37px; }
 
-.fm-container .margin-t-38 {
+.file-manager-container .margin-t-38 {
   margin-top: 38px; }
 
-.fm-container .margin-t-39 {
+.file-manager-container .margin-t-39 {
   margin-top: 39px; }
 
-.fm-container .margin-t-40 {
+.file-manager-container .margin-t-40 {
   margin-top: 40px; }
 
-.fm-container .margin-t-41 {
+.file-manager-container .margin-t-41 {
   margin-top: 41px; }
 
-.fm-container .margin-t-42 {
+.file-manager-container .margin-t-42 {
   margin-top: 42px; }
 
-.fm-container .margin-t-43 {
+.file-manager-container .margin-t-43 {
   margin-top: 43px; }
 
-.fm-container .margin-t-44 {
+.file-manager-container .margin-t-44 {
   margin-top: 44px; }
 
-.fm-container .margin-t-45 {
+.file-manager-container .margin-t-45 {
   margin-top: 45px; }
 
-.fm-container .margin-t-46 {
+.file-manager-container .margin-t-46 {
   margin-top: 46px; }
 
-.fm-container .margin-t-47 {
+.file-manager-container .margin-t-47 {
   margin-top: 47px; }
 
-.fm-container .margin-t-48 {
+.file-manager-container .margin-t-48 {
   margin-top: 48px; }
 
-.fm-container .margin-t-49 {
+.file-manager-container .margin-t-49 {
   margin-top: 49px; }
 
-.fm-container .margin-t-50 {
+.file-manager-container .margin-t-50 {
   margin-top: 50px; }
 
-.fm-container .margin-t-51 {
+.file-manager-container .margin-t-51 {
   margin-top: 51px; }
 
-.fm-container .margin-t-52 {
+.file-manager-container .margin-t-52 {
   margin-top: 52px; }
 
-.fm-container .margin-t-53 {
+.file-manager-container .margin-t-53 {
   margin-top: 53px; }
 
-.fm-container .margin-t-54 {
+.file-manager-container .margin-t-54 {
   margin-top: 54px; }
 
-.fm-container .margin-t-55 {
+.file-manager-container .margin-t-55 {
   margin-top: 55px; }
 
-.fm-container .margin-t-56 {
+.file-manager-container .margin-t-56 {
   margin-top: 56px; }
 
-.fm-container .margin-t-57 {
+.file-manager-container .margin-t-57 {
   margin-top: 57px; }
 
-.fm-container .margin-t-58 {
+.file-manager-container .margin-t-58 {
   margin-top: 58px; }
 
-.fm-container .margin-t-59 {
+.file-manager-container .margin-t-59 {
   margin-top: 59px; }
 
-.fm-container .margin-t-60 {
+.file-manager-container .margin-t-60 {
   margin-top: 60px; }
 
-.fm-container .margin-t-61 {
+.file-manager-container .margin-t-61 {
   margin-top: 61px; }
 
-.fm-container .margin-t-62 {
+.file-manager-container .margin-t-62 {
   margin-top: 62px; }
 
-.fm-container .margin-t-63 {
+.file-manager-container .margin-t-63 {
   margin-top: 63px; }
 
-.fm-container .margin-t-64 {
+.file-manager-container .margin-t-64 {
   margin-top: 64px; }
 
-.fm-container .margin-t-65 {
+.file-manager-container .margin-t-65 {
   margin-top: 65px; }
 
-.fm-container .margin-t-66 {
+.file-manager-container .margin-t-66 {
   margin-top: 66px; }
 
-.fm-container .margin-t-67 {
+.file-manager-container .margin-t-67 {
   margin-top: 67px; }
 
-.fm-container .margin-t-68 {
+.file-manager-container .margin-t-68 {
   margin-top: 68px; }
 
-.fm-container .margin-t-69 {
+.file-manager-container .margin-t-69 {
   margin-top: 69px; }
 
-.fm-container .margin-t-70 {
+.file-manager-container .margin-t-70 {
   margin-top: 70px; }
 
-.fm-container .margin-t-71 {
+.file-manager-container .margin-t-71 {
   margin-top: 71px; }
 
-.fm-container .margin-t-72 {
+.file-manager-container .margin-t-72 {
   margin-top: 72px; }
 
-.fm-container .margin-t-73 {
+.file-manager-container .margin-t-73 {
   margin-top: 73px; }
 
-.fm-container .margin-t-74 {
+.file-manager-container .margin-t-74 {
   margin-top: 74px; }
 
-.fm-container .margin-t-75 {
+.file-manager-container .margin-t-75 {
   margin-top: 75px; }
 
-.fm-container .margin-t-76 {
+.file-manager-container .margin-t-76 {
   margin-top: 76px; }
 
-.fm-container .margin-t-77 {
+.file-manager-container .margin-t-77 {
   margin-top: 77px; }
 
-.fm-container .margin-t-78 {
+.file-manager-container .margin-t-78 {
   margin-top: 78px; }
 
-.fm-container .margin-t-79 {
+.file-manager-container .margin-t-79 {
   margin-top: 79px; }
 
-.fm-container .margin-t-80 {
+.file-manager-container .margin-t-80 {
   margin-top: 80px; }
 
-.fm-container .margin-t-81 {
+.file-manager-container .margin-t-81 {
   margin-top: 81px; }
 
-.fm-container .margin-t-82 {
+.file-manager-container .margin-t-82 {
   margin-top: 82px; }
 
-.fm-container .margin-t-83 {
+.file-manager-container .margin-t-83 {
   margin-top: 83px; }
 
-.fm-container .margin-t-84 {
+.file-manager-container .margin-t-84 {
   margin-top: 84px; }
 
-.fm-container .margin-t-85 {
+.file-manager-container .margin-t-85 {
   margin-top: 85px; }
 
-.fm-container .margin-t-86 {
+.file-manager-container .margin-t-86 {
   margin-top: 86px; }
 
-.fm-container .margin-t-87 {
+.file-manager-container .margin-t-87 {
   margin-top: 87px; }
 
-.fm-container .margin-t-88 {
+.file-manager-container .margin-t-88 {
   margin-top: 88px; }
 
-.fm-container .margin-t-89 {
+.file-manager-container .margin-t-89 {
   margin-top: 89px; }
 
-.fm-container .margin-t-90 {
+.file-manager-container .margin-t-90 {
   margin-top: 90px; }
 
-.fm-container .margin-t-91 {
+.file-manager-container .margin-t-91 {
   margin-top: 91px; }
 
-.fm-container .margin-t-92 {
+.file-manager-container .margin-t-92 {
   margin-top: 92px; }
 
-.fm-container .margin-t-93 {
+.file-manager-container .margin-t-93 {
   margin-top: 93px; }
 
-.fm-container .margin-t-94 {
+.file-manager-container .margin-t-94 {
   margin-top: 94px; }
 
-.fm-container .margin-t-95 {
+.file-manager-container .margin-t-95 {
   margin-top: 95px; }
 
-.fm-container .margin-t-96 {
+.file-manager-container .margin-t-96 {
   margin-top: 96px; }
 
-.fm-container .margin-t-97 {
+.file-manager-container .margin-t-97 {
   margin-top: 97px; }
 
-.fm-container .margin-t-98 {
+.file-manager-container .margin-t-98 {
   margin-top: 98px; }
 
-.fm-container .margin-t-99 {
+.file-manager-container .margin-t-99 {
   margin-top: 99px; }
 
-.fm-container .margin-t-100 {
+.file-manager-container .margin-t-100 {
   margin-top: 100px; }
 
-.fm-container .margin-b-5 {
+.file-manager-container .margin-b-5 {
   margin-bottom: 5px; }
 
-.fm-container .margin-b-6 {
+.file-manager-container .margin-b-6 {
   margin-bottom: 6px; }
 
-.fm-container .margin-b-7 {
+.file-manager-container .margin-b-7 {
   margin-bottom: 7px; }
 
-.fm-container .margin-b-8 {
+.file-manager-container .margin-b-8 {
   margin-bottom: 8px; }
 
-.fm-container .margin-b-9 {
+.file-manager-container .margin-b-9 {
   margin-bottom: 9px; }
 
-.fm-container .margin-b-10 {
+.file-manager-container .margin-b-10 {
   margin-bottom: 10px; }
 
-.fm-container .margin-b-11 {
+.file-manager-container .margin-b-11 {
   margin-bottom: 11px; }
 
-.fm-container .margin-b-12 {
+.file-manager-container .margin-b-12 {
   margin-bottom: 12px; }
 
-.fm-container .margin-b-13 {
+.file-manager-container .margin-b-13 {
   margin-bottom: 13px; }
 
-.fm-container .margin-b-14 {
+.file-manager-container .margin-b-14 {
   margin-bottom: 14px; }
 
-.fm-container .margin-b-15 {
+.file-manager-container .margin-b-15 {
   margin-bottom: 15px; }
 
-.fm-container .margin-b-16 {
+.file-manager-container .margin-b-16 {
   margin-bottom: 16px; }
 
-.fm-container .margin-b-17 {
+.file-manager-container .margin-b-17 {
   margin-bottom: 17px; }
 
-.fm-container .margin-b-18 {
+.file-manager-container .margin-b-18 {
   margin-bottom: 18px; }
 
-.fm-container .margin-b-19 {
+.file-manager-container .margin-b-19 {
   margin-bottom: 19px; }
 
-.fm-container .margin-b-20 {
+.file-manager-container .margin-b-20 {
   margin-bottom: 20px; }
 
-.fm-container .margin-b-21 {
+.file-manager-container .margin-b-21 {
   margin-bottom: 21px; }
 
-.fm-container .margin-b-22 {
+.file-manager-container .margin-b-22 {
   margin-bottom: 22px; }
 
-.fm-container .margin-b-23 {
+.file-manager-container .margin-b-23 {
   margin-bottom: 23px; }
 
-.fm-container .margin-b-24 {
+.file-manager-container .margin-b-24 {
   margin-bottom: 24px; }
 
-.fm-container .margin-b-25 {
+.file-manager-container .margin-b-25 {
   margin-bottom: 25px; }
 
-.fm-container .margin-b-26 {
+.file-manager-container .margin-b-26 {
   margin-bottom: 26px; }
 
-.fm-container .margin-b-27 {
+.file-manager-container .margin-b-27 {
   margin-bottom: 27px; }
 
-.fm-container .margin-b-28 {
+.file-manager-container .margin-b-28 {
   margin-bottom: 28px; }
 
-.fm-container .margin-b-29 {
+.file-manager-container .margin-b-29 {
   margin-bottom: 29px; }
 
-.fm-container .margin-b-30 {
+.file-manager-container .margin-b-30 {
   margin-bottom: 30px; }
 
-.fm-container .margin-b-31 {
+.file-manager-container .margin-b-31 {
   margin-bottom: 31px; }
 
-.fm-container .margin-b-32 {
+.file-manager-container .margin-b-32 {
   margin-bottom: 32px; }
 
-.fm-container .margin-b-33 {
+.file-manager-container .margin-b-33 {
   margin-bottom: 33px; }
 
-.fm-container .margin-b-34 {
+.file-manager-container .margin-b-34 {
   margin-bottom: 34px; }
 
-.fm-container .margin-b-35 {
+.file-manager-container .margin-b-35 {
   margin-bottom: 35px; }
 
-.fm-container .margin-b-36 {
+.file-manager-container .margin-b-36 {
   margin-bottom: 36px; }
 
-.fm-container .margin-b-37 {
+.file-manager-container .margin-b-37 {
   margin-bottom: 37px; }
 
-.fm-container .margin-b-38 {
+.file-manager-container .margin-b-38 {
   margin-bottom: 38px; }
 
-.fm-container .margin-b-39 {
+.file-manager-container .margin-b-39 {
   margin-bottom: 39px; }
 
-.fm-container .margin-b-40 {
+.file-manager-container .margin-b-40 {
   margin-bottom: 40px; }
 
-.fm-container .margin-b-41 {
+.file-manager-container .margin-b-41 {
   margin-bottom: 41px; }
 
-.fm-container .margin-b-42 {
+.file-manager-container .margin-b-42 {
   margin-bottom: 42px; }
 
-.fm-container .margin-b-43 {
+.file-manager-container .margin-b-43 {
   margin-bottom: 43px; }
 
-.fm-container .margin-b-44 {
+.file-manager-container .margin-b-44 {
   margin-bottom: 44px; }
 
-.fm-container .margin-b-45 {
+.file-manager-container .margin-b-45 {
   margin-bottom: 45px; }
 
-.fm-container .margin-b-46 {
+.file-manager-container .margin-b-46 {
   margin-bottom: 46px; }
 
-.fm-container .margin-b-47 {
+.file-manager-container .margin-b-47 {
   margin-bottom: 47px; }
 
-.fm-container .margin-b-48 {
+.file-manager-container .margin-b-48 {
   margin-bottom: 48px; }
 
-.fm-container .margin-b-49 {
+.file-manager-container .margin-b-49 {
   margin-bottom: 49px; }
 
-.fm-container .margin-b-50 {
+.file-manager-container .margin-b-50 {
   margin-bottom: 50px; }
 
-.fm-container .margin-b-51 {
+.file-manager-container .margin-b-51 {
   margin-bottom: 51px; }
 
-.fm-container .margin-b-52 {
+.file-manager-container .margin-b-52 {
   margin-bottom: 52px; }
 
-.fm-container .margin-b-53 {
+.file-manager-container .margin-b-53 {
   margin-bottom: 53px; }
 
-.fm-container .margin-b-54 {
+.file-manager-container .margin-b-54 {
   margin-bottom: 54px; }
 
-.fm-container .margin-b-55 {
+.file-manager-container .margin-b-55 {
   margin-bottom: 55px; }
 
-.fm-container .margin-b-56 {
+.file-manager-container .margin-b-56 {
   margin-bottom: 56px; }
 
-.fm-container .margin-b-57 {
+.file-manager-container .margin-b-57 {
   margin-bottom: 57px; }
 
-.fm-container .margin-b-58 {
+.file-manager-container .margin-b-58 {
   margin-bottom: 58px; }
 
-.fm-container .margin-b-59 {
+.file-manager-container .margin-b-59 {
   margin-bottom: 59px; }
 
-.fm-container .margin-b-60 {
+.file-manager-container .margin-b-60 {
   margin-bottom: 60px; }
 
-.fm-container .margin-b-61 {
+.file-manager-container .margin-b-61 {
   margin-bottom: 61px; }
 
-.fm-container .margin-b-62 {
+.file-manager-container .margin-b-62 {
   margin-bottom: 62px; }
 
-.fm-container .margin-b-63 {
+.file-manager-container .margin-b-63 {
   margin-bottom: 63px; }
 
-.fm-container .margin-b-64 {
+.file-manager-container .margin-b-64 {
   margin-bottom: 64px; }
 
-.fm-container .margin-b-65 {
+.file-manager-container .margin-b-65 {
   margin-bottom: 65px; }
 
-.fm-container .margin-b-66 {
+.file-manager-container .margin-b-66 {
   margin-bottom: 66px; }
 
-.fm-container .margin-b-67 {
+.file-manager-container .margin-b-67 {
   margin-bottom: 67px; }
 
-.fm-container .margin-b-68 {
+.file-manager-container .margin-b-68 {
   margin-bottom: 68px; }
 
-.fm-container .margin-b-69 {
+.file-manager-container .margin-b-69 {
   margin-bottom: 69px; }
 
-.fm-container .margin-b-70 {
+.file-manager-container .margin-b-70 {
   margin-bottom: 70px; }
 
-.fm-container .margin-b-71 {
+.file-manager-container .margin-b-71 {
   margin-bottom: 71px; }
 
-.fm-container .margin-b-72 {
+.file-manager-container .margin-b-72 {
   margin-bottom: 72px; }
 
-.fm-container .margin-b-73 {
+.file-manager-container .margin-b-73 {
   margin-bottom: 73px; }
 
-.fm-container .margin-b-74 {
+.file-manager-container .margin-b-74 {
   margin-bottom: 74px; }
 
-.fm-container .margin-b-75 {
+.file-manager-container .margin-b-75 {
   margin-bottom: 75px; }
 
-.fm-container .margin-b-76 {
+.file-manager-container .margin-b-76 {
   margin-bottom: 76px; }
 
-.fm-container .margin-b-77 {
+.file-manager-container .margin-b-77 {
   margin-bottom: 77px; }
 
-.fm-container .margin-b-78 {
+.file-manager-container .margin-b-78 {
   margin-bottom: 78px; }
 
-.fm-container .margin-b-79 {
+.file-manager-container .margin-b-79 {
   margin-bottom: 79px; }
 
-.fm-container .margin-b-80 {
+.file-manager-container .margin-b-80 {
   margin-bottom: 80px; }
 
-.fm-container .margin-b-81 {
+.file-manager-container .margin-b-81 {
   margin-bottom: 81px; }
 
-.fm-container .margin-b-82 {
+.file-manager-container .margin-b-82 {
   margin-bottom: 82px; }
 
-.fm-container .margin-b-83 {
+.file-manager-container .margin-b-83 {
   margin-bottom: 83px; }
 
-.fm-container .margin-b-84 {
+.file-manager-container .margin-b-84 {
   margin-bottom: 84px; }
 
-.fm-container .margin-b-85 {
+.file-manager-container .margin-b-85 {
   margin-bottom: 85px; }
 
-.fm-container .margin-b-86 {
+.file-manager-container .margin-b-86 {
   margin-bottom: 86px; }
 
-.fm-container .margin-b-87 {
+.file-manager-container .margin-b-87 {
   margin-bottom: 87px; }
 
-.fm-container .margin-b-88 {
+.file-manager-container .margin-b-88 {
   margin-bottom: 88px; }
 
-.fm-container .margin-b-89 {
+.file-manager-container .margin-b-89 {
   margin-bottom: 89px; }
 
-.fm-container .margin-b-90 {
+.file-manager-container .margin-b-90 {
   margin-bottom: 90px; }
 
-.fm-container .margin-b-91 {
+.file-manager-container .margin-b-91 {
   margin-bottom: 91px; }
 
-.fm-container .margin-b-92 {
+.file-manager-container .margin-b-92 {
   margin-bottom: 92px; }
 
-.fm-container .margin-b-93 {
+.file-manager-container .margin-b-93 {
   margin-bottom: 93px; }
 
-.fm-container .margin-b-94 {
+.file-manager-container .margin-b-94 {
   margin-bottom: 94px; }
 
-.fm-container .margin-b-95 {
+.file-manager-container .margin-b-95 {
   margin-bottom: 95px; }
 
-.fm-container .margin-b-96 {
+.file-manager-container .margin-b-96 {
   margin-bottom: 96px; }
 
-.fm-container .margin-b-97 {
+.file-manager-container .margin-b-97 {
   margin-bottom: 97px; }
 
-.fm-container .margin-b-98 {
+.file-manager-container .margin-b-98 {
   margin-bottom: 98px; }
 
-.fm-container .margin-b-99 {
+.file-manager-container .margin-b-99 {
   margin-bottom: 99px; }
 
-.fm-container .margin-b-100 {
+.file-manager-container .margin-b-100 {
   margin-bottom: 100px; }
 
-.fm-container .nav {
+.file-manager-container .nav {
   position: absolute;
   display: flex;
   top: 0;
@@ -2370,9 +2370,9 @@
   border-bottom: 1px solid #f0f0f0;
   z-index: 10; }
   @media (max-width: 991.98px) {
-    .fm-container .nav {
+    .file-manager-container .nav {
       min-height: 50px; } }
-  .fm-container .nav-side {
+  .file-manager-container .nav-side {
     position: relative;
     display: flex;
     flex-flow: row nowrap;
@@ -2382,17 +2382,17 @@
     width: 500px;
     padding: 10px 20px; }
     @media (max-width: 1699.98px) {
-      .fm-container .nav-side {
+      .file-manager-container .nav-side {
         width: 200px; } }
     @media (max-width: 991.98px) {
-      .fm-container .nav-side {
+      .file-manager-container .nav-side {
         display: none; } }
-  .fm-container .nav-menu {
+  .file-manager-container .nav-menu {
     position: relative;
     display: flex;
     flex-flow: column nowrap;
     flex-grow: 1; }
-    .fm-container .nav-menu .menu {
+    .file-manager-container .nav-menu .menu {
       position: relative;
       display: flex;
       flex-flow: row nowrap;
@@ -2402,9 +2402,9 @@
       flex-grow: 1;
       padding: 10px 20px; }
     @media (max-width: 991.98px) {
-      .fm-container .nav-menu {
+      .file-manager-container .nav-menu {
         display: none; } }
-  .fm-container .nav-light {
+  .file-manager-container .nav-light {
     position: relative;
     display: flex;
     flex-flow: row nowrap;
@@ -2413,15 +2413,15 @@
     flex-grow: 1;
     padding: 10px 20px; }
     @media (min-width: 992px) {
-      .fm-container .nav-light {
+      .file-manager-container .nav-light {
         display: none; } }
 
-.fm-container .breadcrumbs .list {
+.file-manager-container .breadcrumbs .list {
   position: relative;
   display: block;
   width: 100%;
   list-style: none; }
-  .fm-container .breadcrumbs .list .item {
+  .file-manager-container .breadcrumbs .list .item {
     position: relative;
     display: inline-block;
     font-family: "Fira Sans Condensed", sans-serif;
@@ -2429,7 +2429,7 @@
     font-weight: 400;
     color: #999999;
     cursor: pointer; }
-    .fm-container .breadcrumbs .list .item::after {
+    .file-manager-container .breadcrumbs .list .item::after {
       content: "\f105";
       position: relative;
       display: inline-block;
@@ -2441,13 +2441,13 @@
       color: #bcbcbc;
       text-align: center;
       cursor: default; }
-    .fm-container .breadcrumbs .list .item:last-child::after {
+    .file-manager-container .breadcrumbs .list .item:last-child::after {
       display: none; }
-    .fm-container .breadcrumbs .list .item.current {
+    .file-manager-container .breadcrumbs .list .item.current {
       color: #292d38;
       pointer-events: none; }
 
-.fm-container .sidebar {
+.file-manager-container .sidebar {
   position: relative;
   display: block;
   width: 500px;
@@ -2455,9 +2455,9 @@
   padding: 110px 20px 0;
   overflow: hidden auto; }
   @media (max-width: 991.98px) {
-    .fm-container .sidebar {
+    .file-manager-container .sidebar {
       display: none; } }
-  .fm-container .sidebar .item {
+  .file-manager-container .sidebar .item {
     position: relative;
     display: flex;
     flex-flow: row nowrap;
@@ -2468,7 +2468,7 @@
     border-radius: 5px;
     padding: 5px 0;
     cursor: pointer; }
-    .fm-container .sidebar .item-icon {
+    .file-manager-container .sidebar .item-icon {
       position: relative;
       display: block;
       width: 42px;
@@ -2476,35 +2476,35 @@
       height: 42px;
       margin: 0 20px 0 10px; }
       @media (max-width: 767.98px) {
-        .fm-container .sidebar .item-icon {
+        .file-manager-container .sidebar .item-icon {
           display: none; } }
-    .fm-container .sidebar .item-data {
+    .file-manager-container .sidebar .item-data {
       position: relative;
       display: flex;
       flex-flow: column nowrap;
       flex-grow: 1;
       padding-right: 10px; }
-      .fm-container .sidebar .item-data .name {
+      .file-manager-container .sidebar .item-data .name {
         position: relative;
         display: block;
         font-size: 1em;
         font-weight: 400;
         line-height: 1.6em;
         color: #292d38; }
-      .fm-container .sidebar .item-data .details {
+      .file-manager-container .sidebar .item-data .details {
         position: relative;
         display: flex;
         flex-flow: row nowrap;
         justify-content: space-between;
         color: #999999; }
-    .fm-container .sidebar .item.directory .item-icon {
+    .file-manager-container .sidebar .item.directory .item-icon {
       background: url("../images/icons/file-type/icon-directory.png") 50% 50% no-repeat transparent;
       background-size: contain; }
-    .fm-container .sidebar .item.back {
+    .file-manager-container .sidebar .item.back {
       justify-content: flex-start; }
-      .fm-container .sidebar .item.back .item-icon {
+      .file-manager-container .sidebar .item.back .item-icon {
         height: 30px; }
-        .fm-container .sidebar .item.back .item-icon::after {
+        .file-manager-container .sidebar .item.back .item-icon::after {
           content: "\f3bf";
           position: absolute;
           display: block;
@@ -2517,28 +2517,28 @@
           font-weight: 900;
           color: #292d38;
           text-align: center; }
-      .fm-container .sidebar .item.back .item-name {
+      .file-manager-container .sidebar .item.back .item-name {
         position: relative;
         display: block;
         color: #292d38; }
-    .fm-container .sidebar .item:hover {
+    .file-manager-container .sidebar .item:hover {
       background-color: #fafafa; }
 
-.fm-container .explorer {
+.file-manager-container .explorer {
   position: relative;
   display: block;
   flex-grow: 1;
   padding: 110px 20px 10px; }
   @media (max-width: 991.98px) {
-    .fm-container .explorer {
+    .file-manager-container .explorer {
       padding-top: 10px; } }
-  .fm-container .explorer-section {
+  .file-manager-container .explorer-section {
     position: relative;
     display: block;
     width: 100%;
     height: 25px;
     margin: 10px 0; }
-    .fm-container .explorer-section .line {
+    .file-manager-container .explorer-section .line {
       position: absolute;
       display: block;
       width: 100%;
@@ -2546,7 +2546,7 @@
       left: 0;
       height: 5px;
       background-color: #f0f0f0; }
-    .fm-container .explorer-section .name {
+    .file-manager-container .explorer-section .name {
       position: absolute;
       display: block;
       top: 7px;
@@ -2559,7 +2559,7 @@
       padding: 3px 10px;
       color: #999999;
       background-color: #ffffff; }
-  .fm-container .explorer-list {
+  .file-manager-container .explorer-list {
     position: relative;
     display: flex;
     flex-direction: row;
@@ -2568,7 +2568,7 @@
     align-items: flex-start;
     align-content: flex-start;
     margin-bottom: 40px; }
-    .fm-container .explorer-list .item {
+    .file-manager-container .explorer-list .item {
       position: relative;
       display: flex;
       flex-flow: row nowrap;
@@ -2578,7 +2578,7 @@
       margin: 10px 5px 10px 0;
       border-radius: 5px;
       padding: 5px 0; }
-      .fm-container .explorer-list .item-checkbox {
+      .file-manager-container .explorer-list .item-checkbox {
         position: relative;
         display: block;
         min-width: 14px;
@@ -2586,7 +2586,7 @@
         margin: 0 10px;
         border: 1px solid #999999;
         cursor: pointer; }
-      .fm-container .explorer-list .item-icon {
+      .file-manager-container .explorer-list .item-icon {
         position: relative;
         display: block;
         width: 42px;
@@ -2595,28 +2595,28 @@
         margin: 0 20px 0 10px;
         cursor: pointer; }
         @media (max-width: 767.98px) {
-          .fm-container .explorer-list .item-icon {
+          .file-manager-container .explorer-list .item-icon {
             display: none; } }
-      .fm-container .explorer-list .item-data {
+      .file-manager-container .explorer-list .item-data {
         position: relative;
         display: flex;
         flex-flow: column nowrap;
         flex-grow: 1;
         cursor: pointer; }
-        .fm-container .explorer-list .item-data .name {
+        .file-manager-container .explorer-list .item-data .name {
           position: relative;
           display: block;
           font-size: 1em;
           font-weight: 400;
           line-height: 1.6em;
           color: #292d38; }
-        .fm-container .explorer-list .item-data .details {
+        .file-manager-container .explorer-list .item-data .details {
           position: relative;
           display: flex;
           flex-flow: row nowrap;
           justify-content: space-between;
           color: #999999; }
-      .fm-container .explorer-list .item-options {
+      .file-manager-container .explorer-list .item-options {
         position: relative;
         display: flex;
         flex-flow: row nowrap;
@@ -2626,9 +2626,9 @@
         height: 20px;
         margin: 0 10px;
         color: #292d38; }
-      .fm-container .explorer-list .item.selected {
+      .file-manager-container .explorer-list .item.selected {
         background-color: #f0f0f0; }
-        .fm-container .explorer-list .item.selected .item-checkbox::after {
+        .file-manager-container .explorer-list .item.selected .item-checkbox::after {
           content: "\f00c";
           position: absolute;
           display: block;
@@ -2638,51 +2638,51 @@
           font-size: 0.7em;
           font-weight: 900;
           color: #999999; }
-      .fm-container .explorer-list .item.file .item-icon {
+      .file-manager-container .explorer-list .item.file .item-icon {
         background-image: url("../images/icons/file-type/icon-file.png");
         background-position: 50% 50%;
         background-repeat: no-repeat;
         background-color: transparent;
         background-size: contain; }
-      .fm-container .explorer-list .item.file.ext-css .item-icon, .fm-container .explorer-list .item.file.ext-sass .item-icon, .fm-container .explorer-list .item.file.ext-less .item-icon {
+      .file-manager-container .explorer-list .item.file.ext-css .item-icon, .file-manager-container .explorer-list .item.file.ext-sass .item-icon, .file-manager-container .explorer-list .item.file.ext-less .item-icon {
         background-image: url("../images/icons/file-type/icon-file-css.png"); }
-      .fm-container .explorer-list .item.file.ext-gif .item-icon {
+      .file-manager-container .explorer-list .item.file.ext-gif .item-icon {
         background-image: url("../images/icons/file-type/icon-file-gif.png"); }
-      .fm-container .explorer-list .item.file.ext-html .item-icon, .fm-container .explorer-list .item.file.ext-xml .item-icon {
+      .file-manager-container .explorer-list .item.file.ext-html .item-icon, .file-manager-container .explorer-list .item.file.ext-xml .item-icon {
         background-image: url("../images/icons/file-type/icon-file-html.png"); }
-      .fm-container .explorer-list .item.file.ext-jpg .item-icon, .fm-container .explorer-list .item.file.ext-jpeg .item-icon {
+      .file-manager-container .explorer-list .item.file.ext-jpg .item-icon, .file-manager-container .explorer-list .item.file.ext-jpeg .item-icon {
         background-image: url("../images/icons/file-type/icon-file-jpg.png"); }
-      .fm-container .explorer-list .item.file.ext-mp3 .item-icon, .fm-container .explorer-list .item.file.ext-wav .item-icon, .fm-container .explorer-list .item.file.ext-ogg .item-icon {
+      .file-manager-container .explorer-list .item.file.ext-mp3 .item-icon, .file-manager-container .explorer-list .item.file.ext-wav .item-icon, .file-manager-container .explorer-list .item.file.ext-ogg .item-icon {
         background-image: url("../images/icons/file-type/icon-file-mp3.png"); }
-      .fm-container .explorer-list .item.file.ext-mp4 .item-icon, .fm-container .explorer-list .item.file.ext-avi .item-icon, .fm-container .explorer-list .item.file.ext-m4v .item-icon, .fm-container .explorer-list .item.file.ext-mov .item-icon, .fm-container .explorer-list .item.file.ext-swf .item-icon {
+      .file-manager-container .explorer-list .item.file.ext-mp4 .item-icon, .file-manager-container .explorer-list .item.file.ext-avi .item-icon, .file-manager-container .explorer-list .item.file.ext-m4v .item-icon, .file-manager-container .explorer-list .item.file.ext-mov .item-icon, .file-manager-container .explorer-list .item.file.ext-swf .item-icon {
         background-image: url("../images/icons/file-type/icon-file-mp4.png"); }
-      .fm-container .explorer-list .item.file.ext-pdf .item-icon {
+      .file-manager-container .explorer-list .item.file.ext-pdf .item-icon {
         background-image: url("../images/icons/file-type/icon-file-pdf.png"); }
-      .fm-container .explorer-list .item.file.ext-png .item-icon {
+      .file-manager-container .explorer-list .item.file.ext-png .item-icon {
         background-image: url("../images/icons/file-type/icon-file-png.png"); }
-      .fm-container .explorer-list .item.file.ext-ppt .item-icon, .fm-container .explorer-list .item.file.ext-pptx .item-icon, .fm-container .explorer-list .item.file.ext-pptm .item-icon {
+      .file-manager-container .explorer-list .item.file.ext-ppt .item-icon, .file-manager-container .explorer-list .item.file.ext-pptx .item-icon, .file-manager-container .explorer-list .item.file.ext-pptm .item-icon {
         background-image: url("../images/icons/file-type/icon-file-ppt.png"); }
-      .fm-container .explorer-list .item.file.ext-psd .item-icon {
+      .file-manager-container .explorer-list .item.file.ext-psd .item-icon {
         background-image: url("../images/icons/file-type/icon-file-psd.png"); }
-      .fm-container .explorer-list .item.file.ext-sql .item-icon {
+      .file-manager-container .explorer-list .item.file.ext-sql .item-icon {
         background-image: url("../images/icons/file-type/icon-file-sql.png"); }
-      .fm-container .explorer-list .item.file.ext-txt .item-icon, .fm-container .explorer-list .item.file.ext-doc .item-icon, .fm-container .explorer-list .item.file.ext-odt .item-icon {
+      .file-manager-container .explorer-list .item.file.ext-txt .item-icon, .file-manager-container .explorer-list .item.file.ext-doc .item-icon, .file-manager-container .explorer-list .item.file.ext-odt .item-icon {
         background-image: url("../images/icons/file-type/icon-file-txt.png"); }
-      .fm-container .explorer-list .item.file.ext-xls .item-icon, .fm-container .explorer-list .item.file.ext-xla .item-icon, .fm-container .explorer-list .item.file.ext-xlt .item-icon, .fm-container .explorer-list .item.file.ext-xlk .item-icon, .fm-container .explorer-list .item.file.ext-xlsx .item-icon, .fm-container .explorer-list .item.file.ext-xltm .item-icon, .fm-container .explorer-list .item.file.ext-ods .item-icon, .fm-container .explorer-list .item.file.ext-ots .item-icon, .fm-container .explorer-list .item.file.ext-csv .item-icon {
+      .file-manager-container .explorer-list .item.file.ext-xls .item-icon, .file-manager-container .explorer-list .item.file.ext-xla .item-icon, .file-manager-container .explorer-list .item.file.ext-xlt .item-icon, .file-manager-container .explorer-list .item.file.ext-xlk .item-icon, .file-manager-container .explorer-list .item.file.ext-xlsx .item-icon, .file-manager-container .explorer-list .item.file.ext-xltm .item-icon, .file-manager-container .explorer-list .item.file.ext-ods .item-icon, .file-manager-container .explorer-list .item.file.ext-ots .item-icon, .file-manager-container .explorer-list .item.file.ext-csv .item-icon {
         background-image: url("../images/icons/file-type/icon-file-xls.png"); }
-      .fm-container .explorer-list .item.file.ext-zip .item-icon, .fm-container .explorer-list .item.file.ext-7zip .item-icon, .fm-container .explorer-list .item.file.ext-rar .item-icon {
+      .file-manager-container .explorer-list .item.file.ext-zip .item-icon, .file-manager-container .explorer-list .item.file.ext-7zip .item-icon, .file-manager-container .explorer-list .item.file.ext-rar .item-icon {
         background-image: url("../images/icons/file-type/icon-file-zip.png"); }
-      .fm-container .explorer-list .item.directory .item-icon {
+      .file-manager-container .explorer-list .item.directory .item-icon {
         background-image: url("../images/icons/file-type/icon-directory.png");
         background-position: 50% 50%;
         background-repeat: no-repeat;
         background-color: transparent;
         background-size: contain; }
-      .fm-container .explorer-list .item.back {
+      .file-manager-container .explorer-list .item.back {
         justify-content: flex-start; }
-        .fm-container .explorer-list .item.back .item-icon {
+        .file-manager-container .explorer-list .item.back .item-icon {
           height: 30px; }
-          .fm-container .explorer-list .item.back .item-icon::after {
+          .file-manager-container .explorer-list .item.back .item-icon::after {
             content: "\f3bf";
             position: absolute;
             display: block;
@@ -2695,34 +2695,34 @@
             font-weight: 900;
             color: #292d38;
             text-align: center; }
-        .fm-container .explorer-list .item.back .item-name {
+        .file-manager-container .explorer-list .item.back .item-name {
           position: relative;
           display: block;
           color: #292d38;
           padding-left: 30px; }
         @media (min-width: 992px) {
-          .fm-container .explorer-list .item.back {
+          .file-manager-container .explorer-list .item.back {
             display: none; } }
-      .fm-container .explorer-list .item:hover {
+      .file-manager-container .explorer-list .item:hover {
         background-color: #fafafa; }
       @media (max-width: 1199.98px) {
-        .fm-container .explorer-list .item {
+        .file-manager-container .explorer-list .item {
           width: calc(50% - 10px); } }
       @media (max-width: 991.98px) {
-        .fm-container .explorer-list .item {
+        .file-manager-container .explorer-list .item {
           width: 100%; } }
 
-.fm-container .dropdown {
+.file-manager-container .dropdown {
   position: relative;
   display: inline-block; }
-  .fm-container .dropdown-toggle {
+  .file-manager-container .dropdown-toggle {
     border: 0;
     background-color: transparent;
     font-family: "Fira Sans Condensed", sans-serif;
     font-size: 1em;
     font-weight: 400;
     cursor: pointer; }
-  .fm-container .dropdown-menu {
+  .file-manager-container .dropdown-menu {
     position: absolute;
     display: none;
     top: 30px;
@@ -2731,11 +2731,11 @@
     background-color: #ffffff;
     border: 1px solid #bcbcbc;
     z-index: 10; }
-    .fm-container .dropdown-menu.menu-btn {
+    .file-manager-container .dropdown-menu.menu-btn {
       top: 45px; }
-    .fm-container .dropdown-menu.menu-btn-offset::before, .fm-container .dropdown-menu.menu-btn-offset::after {
+    .file-manager-container .dropdown-menu.menu-btn-offset::before, .file-manager-container .dropdown-menu.menu-btn-offset::after {
       left: 24px; }
-    .fm-container .dropdown-menu::before, .fm-container .dropdown-menu::after {
+    .file-manager-container .dropdown-menu::before, .file-manager-container .dropdown-menu::after {
       content: "";
       position: absolute;
       display: block;
@@ -2746,22 +2746,22 @@
       border: 8px solid transparent;
       border-bottom: 8px solid #bcbcbc;
       z-index: 20; }
-    .fm-container .dropdown-menu::after {
+    .file-manager-container .dropdown-menu::after {
       top: -15px;
       border-bottom: 8px solid #ffffff; }
-  .fm-container .dropdown-item {
+  .file-manager-container .dropdown-item {
     position: relative;
     display: block;
     padding: 8px 15px;
     cursor: pointer; }
-    .fm-container .dropdown-item.danger {
+    .file-manager-container .dropdown-item.danger {
       color: #ffffff;
       background-color: #f06060; }
-      .fm-container .dropdown-item.danger:hover {
+      .file-manager-container .dropdown-item.danger:hover {
         background-color: #ec3131; }
-    .fm-container .dropdown-item.icon {
+    .file-manager-container .dropdown-item.icon {
       padding-left: 40px; }
-      .fm-container .dropdown-item.icon i {
+      .file-manager-container .dropdown-item.icon i {
         position: absolute;
         display: block;
         top: calc(50% - 6px);
@@ -2769,30 +2769,30 @@
         width: 14px;
         height: 14px;
         text-align: center; }
-    .fm-container .dropdown-item.header {
+    .file-manager-container .dropdown-item.header {
       padding: 10px 15px;
       text-transform: uppercase;
       color: #999999;
       cursor: default; }
-      .fm-container .dropdown-item.header:hover {
+      .file-manager-container .dropdown-item.header:hover {
         background-color: transparent; }
-    .fm-container .dropdown-item.disabled {
+    .file-manager-container .dropdown-item.disabled {
       pointer-events: none;
       opacity: .5; }
-    .fm-container .dropdown-item:hover {
+    .file-manager-container .dropdown-item:hover {
       background-color: #f0f0f0; }
-  .fm-container .dropdown.right .dropdown-menu {
+  .file-manager-container .dropdown.right .dropdown-menu {
     left: auto;
     right: -8px; }
-    .fm-container .dropdown.right .dropdown-menu.menu-btn-offset::before, .fm-container .dropdown.right .dropdown-menu.menu-btn-offset::after {
+    .file-manager-container .dropdown.right .dropdown-menu.menu-btn-offset::before, .file-manager-container .dropdown.right .dropdown-menu.menu-btn-offset::after {
       right: 24px; }
-    .fm-container .dropdown.right .dropdown-menu::before, .fm-container .dropdown.right .dropdown-menu::after {
+    .file-manager-container .dropdown.right .dropdown-menu::before, .file-manager-container .dropdown.right .dropdown-menu::after {
       left: auto;
       right: 7px; }
-  .fm-container .dropdown.open .dropdown-menu {
+  .file-manager-container .dropdown.open .dropdown-menu {
     display: block; }
 
-.fm-container .btn {
+.file-manager-container .btn {
   position: relative;
   display: inline-block;
   padding: 10px 20px;
@@ -2802,66 +2802,66 @@
   font-size: 1em;
   font-weight: 400;
   cursor: pointer; }
-  .fm-container .btn-round {
+  .file-manager-container .btn-round {
     border-radius: 100px; }
-  .fm-container .btn-disabled {
+  .file-manager-container .btn-disabled {
     pointer-events: none;
     opacity: .5; }
-  .fm-container .btn-primary {
+  .file-manager-container .btn-primary {
     color: #ffffff;
     background-color: #007aff; }
-    .fm-container .btn-primary:hover {
+    .file-manager-container .btn-primary:hover {
       background-color: #0062cc; }
-  .fm-container .btn-default {
+  .file-manager-container .btn-default {
     color: #292d38;
     background-color: #eeeeee; }
-    .fm-container .btn-default:hover {
+    .file-manager-container .btn-default:hover {
       background-color: #d5d5d5; }
-  .fm-container .btn-info {
+  .file-manager-container .btn-info {
     color: #ffffff;
     background-color: #6dbcdb; }
-    .fm-container .btn-info:hover {
+    .file-manager-container .btn-info:hover {
       background-color: #44a9d1; }
-  .fm-container .btn-warning {
+  .file-manager-container .btn-warning {
     color: #ffffff;
     background-color: #f3b562; }
-    .fm-container .btn-warning:hover {
+    .file-manager-container .btn-warning:hover {
       background-color: #ef9f33; }
-  .fm-container .btn-danger {
+  .file-manager-container .btn-danger {
     color: #ffffff;
     background-color: #f06060; }
-    .fm-container .btn-danger:hover {
+    .file-manager-container .btn-danger:hover {
       background-color: #ec3131; }
-  .fm-container .btn-success {
+  .file-manager-container .btn-success {
     color: #ffffff;
     background-color: #74b7a9; }
-    .fm-container .btn-success:hover {
+    .file-manager-container .btn-success:hover {
       background-color: #55a393; }
-  .fm-container .btn-icon {
+  .file-manager-container .btn-icon {
     color: #292d38; }
-    .fm-container .btn-icon.btn-primary {
+    .file-manager-container .btn-icon.btn-primary {
       color: #ffffff; }
-    .fm-container .btn-icon.btn-default {
+    .file-manager-container .btn-icon.btn-default {
       color: #292d38; }
-    .fm-container .btn-icon.btn-info {
+    .file-manager-container .btn-icon.btn-info {
       color: #ffffff; }
-    .fm-container .btn-icon.btn-warning {
+    .file-manager-container .btn-icon.btn-warning {
       color: #ffffff; }
-    .fm-container .btn-icon.btn-danger {
+    .file-manager-container .btn-icon.btn-danger {
       color: #ffffff; }
-    .fm-container .btn-icon-success {
+    .file-manager-container .btn-icon-success {
       color: #ffffff; }
-    .fm-container .btn-icon.btn-primary i, .fm-container .btn-icon.btn-default i, .fm-container .btn-icon.btn-info i, .fm-container .btn-icon.btn-warning i, .fm-container .btn-icon.btn-danger i, .fm-container .btn-icon.btn-success i {
+    .file-manager-container .btn-icon.btn-primary i, .file-manager-container .btn-icon.btn-default i, .file-manager-container .btn-icon.btn-info i, .file-manager-container .btn-icon.btn-warning i, .file-manager-container .btn-icon.btn-danger i, .file-manager-container .btn-icon.btn-success i {
       margin-right: 5px; }
     @media (max-width: 1199.98px) {
-      .fm-container .btn-icon.btn-primary, .fm-container .btn-icon.btn-default, .fm-container .btn-icon.btn-info, .fm-container .btn-icon.btn-warning, .fm-container .btn-icon.btn-danger, .fm-container .btn-icon.btn-success {
+      .file-manager-container .btn-icon.btn-primary, .file-manager-container .btn-icon.btn-default, .file-manager-container .btn-icon.btn-info, .file-manager-container .btn-icon.btn-warning, .file-manager-container .btn-icon.btn-danger, .file-manager-container .btn-icon.btn-success {
         text-align: center; }
-        .fm-container .btn-icon.btn-primary i, .fm-container .btn-icon.btn-default i, .fm-container .btn-icon.btn-info i, .fm-container .btn-icon.btn-warning i, .fm-container .btn-icon.btn-danger i, .fm-container .btn-icon.btn-success i {
+        .file-manager-container .btn-icon.btn-primary i, .file-manager-container .btn-icon.btn-default i, .file-manager-container .btn-icon.btn-info i, .file-manager-container .btn-icon.btn-warning i, .file-manager-container .btn-icon.btn-danger i, .file-manager-container .btn-icon.btn-success i {
           display: none; } }
-  .fm-container .btn .dropdown-menu {
+  .file-manager-container .btn .dropdown-menu {
     top: 50px; }
 
-.fm-container .modal {
+.file-manager-container .modal {
   position: absolute;
   display: none;
   top: 0;
@@ -2870,7 +2870,7 @@
   height: 100%;
   background-color: rgba(41, 45, 56, 0.4);
   z-index: 50; }
-  .fm-container .modal::after {
+  .file-manager-container .modal::after {
     content: "";
     position: absolute;
     display: block;
@@ -2882,14 +2882,14 @@
     box-shadow: -5px 2px 9px -5px rgba(0, 0, 0, 0.3);
     z-index: 0; }
     @media (max-width: 1199.98px) {
-      .fm-container .modal::after {
+      .file-manager-container .modal::after {
         width: 50%; } }
     @media (max-width: 991.98px) {
-      .fm-container .modal::after {
+      .file-manager-container .modal::after {
         display: none; } }
-  .fm-container .modal.open {
+  .file-manager-container .modal.open {
     display: block; }
-  .fm-container .modal-dialog {
+  .file-manager-container .modal-dialog {
     position: absolute;
     display: block;
     top: 0;
@@ -2901,12 +2901,12 @@
     overflow: hidden auto;
     z-index: 100; }
     @media (max-width: 1199.98px) {
-      .fm-container .modal-dialog {
+      .file-manager-container .modal-dialog {
         width: 50%; } }
     @media (max-width: 991.98px) {
-      .fm-container .modal-dialog {
+      .file-manager-container .modal-dialog {
         width: 100%; } }
-    .fm-container .modal-dialog .close {
+    .file-manager-container .modal-dialog .close {
       position: absolute;
       display: block;
       top: 20px;
@@ -2917,12 +2917,12 @@
       background-color: transparent;
       border: 0;
       cursor: pointer; }
-    .fm-container .modal-dialog .header {
+    .file-manager-container .modal-dialog .header {
       position: relative;
       display: block;
       width: 100%;
       height: 60px; }
-      .fm-container .modal-dialog .header .line {
+      .file-manager-container .modal-dialog .header .line {
         position: absolute;
         display: block;
         top: calc(50% - 3px);
@@ -2930,7 +2930,7 @@
         width: 100%;
         height: 5px;
         background-color: #f0f0f0; }
-      .fm-container .modal-dialog .header .content {
+      .file-manager-container .modal-dialog .header .content {
         position: absolute;
         display: block;
         top: calc(50% - 8px);
@@ -2944,11 +2944,11 @@
         text-transform: uppercase;
         padding: 0 20px;
         z-index: 10; }
-    .fm-container .modal-dialog .content {
+    .file-manager-container .modal-dialog .content {
       position: relative;
       display: block;
       padding: 0 40px; }
-    .fm-container .modal-dialog .footer {
+    .file-manager-container .modal-dialog .footer {
       position: relative;
       display: flex;
       flex-flow: row nowrap;
@@ -2956,7 +2956,7 @@
       padding: 20px 40px;
       margin: 30px 0 0; }
 
-.fm-container .form-input {
+.file-manager-container .form-input {
   position: relative;
   display: block;
   width: 100%;
@@ -2967,7 +2967,7 @@
   color: #292d38;
   background-color: #ffffff;
   border: 1px solid #bcbcbc; }
-  .fm-container .form-input:focus {
+  .file-manager-container .form-input:focus {
     outline: 0;
     border-color: #999999; }
 
