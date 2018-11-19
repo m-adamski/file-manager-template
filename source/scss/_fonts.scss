@@ -1,6 +1,4 @@
-@import "../../node_modules/@fortawesome/fontawesome-free/scss/regular";
-@import "../../node_modules/@fortawesome/fontawesome-free/scss/solid";
-@import "../../node_modules/@fortawesome/fontawesome-free/scss/fontawesome";
+@import url("https://use.fontawesome.com/releases/v5.5.0/css/all.css");
 @import url("https://fonts.googleapis.com/css?family=Fira+Sans+Condensed:300,400,500,600,700&subset=latin-ext");
 
 @mixin default-font($font-size: 1em, $font-weight: 400) {

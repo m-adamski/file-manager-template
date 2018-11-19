@@ -44,8 +44,7 @@ function compileSass(afterDone) {
 
 function copy(afterDone) {
     var copyData = {
-        "./source/images/**/*": "./dist/images",
-        "./node_modules/@fortawesome/fontawesome-free/webfonts/**/*": "./dist/webfonts/fontawesome"
+        "./source/images/**/*": "./dist/images"
     };
 
     Object.keys(copyData).forEach(function(source) {
